@@ -1,0 +1,57 @@
+[
+    {
+        "name": "Blaze",
+        "description": "How the Blaze condition affects a model depends upon whether it is a fighter or vehicle. Regardless of model type, models subject to the Blaze condition can never become Hidden and cannot make Reaction attacks. Fighter: When activated, a fighter subject to the Blaze condition suffers an immediate S3, AP -1, D1 hit (see Resolving Hits) and must act as follows, after which their activation will end: If Prone and Pinned, the fighter immediately becomes Standing and Active and acts as described below. If Standing and Active, the fighter moves 2D6\" in a random direction, determined by the Scatter dice. The fighter will stop moving if this movement would bring them within 1\" of an enemy fighter or into base contact with impassable terrain. If this movement brings them within ½\" of the edge of a level or platform, they risk falling. If this movement takes the fighter beyond the edge of a level or platform, they will simply fall. At the end of this move, the fighter may choose to become Prone and Pinned. The fighter may then attempt to put the fire out. If Standing and Engaged or Prone and Seriously Injured, the fighter does not move and attempts to put the fire out. To attempt to put the fire out, roll a D6, adding 1 to the result for each other Active friendly fighter within 1\". On a roll of 6 or more, the flames go out and the Blaze condition is removed. Prone and Pinned or Seriously Injured fighters add 2 to the roll to see if the flames go out.",
+        "icon": "LocalFireDepartment"
+    },
+    {
+        "name": "Broken",
+        "description": "A fighter may become Broken as the result of either seeing a friendly fighter Seriously Injured or taken Out of Action within 3\" of them, or seeing a friendly vehicle Wrecked within 6\" of them. Broken fighters may not perform any actions other than Running for Cover (Double), which they perform every time they are activated. If Standing and Engaged, a Broken fighter may only make Reaction attacks, and must apply a -2 modifier to their Hit rolls. Broken fighters may be rallied in the End phase.\nA vehicle may become Broken as the result of seeing a friendly vehicle Wrecked within 6\" of them. Broken vehicles may not perform any actions other than Break For Air (Double) if Mobile or Burn Out (Double) if Stationary and Stalled, which they perform every time they are activated. Broken vehicles may be rallied in the End phase.",
+        "icon": "HeartBroken"
+    },
+    {
+        "name": "Out of ammo",
+        "description": "Should a model roll the Ammo symbol on the Firepower dice, they are required to make an immediate Ammo test for that weapon. If this is failed, that weapon is now Out of Ammo. To represent this, a marker is placed on the appropriate weapon profile on the model's Fighter card or Vehicle card as a reminder that the weapon cannot be used until it has been reloaded. \n Note that, unlike other Conditions, Out of Ammo is applied to a weapon carried by a model rather than the model themselves. It is therefore possible for a model to have multiple Out of Ammo markers on them at one time, indicating more than one weapon is subject to the Condition.",
+        "icon": "AutoFixOff"
+    },
+    {
+        "name": "Blaze",
+        "description": "How the Blaze condition affects a model depends upon whether it is a fighter or vehicle. Regardless of model type, models subject to the Blaze condition can never become Hidden and cannot make Reaction attacks.\n Fighter: When activated, a fighter subject to the Blaze condition suffers an immediate S3, AP -1, D1 hit (see Resolving Hits) and must act as follows, after which their activation will end:\nIf Prone and Pinned, the fighter immediately becomes Standing and Active and acts as described below. \nIf Standing and Active, the fighter moves 2D6\" in a random direction, determined by the Scatter dice. The fighter will stop moving if this movement would bring them within 1\" of an enemy fighter or into base contact with impassable terrain. If this movement brings them within ½\" of the edge of a level or platform, they risk falling. If this movement takes the fighter beyond the edge of a level or platform, they will simply fall. At the end of this move, the fighter may choose to become Prone and Pinned. The fighter may then attempt to put the fire out.\n If Standing and Engaged or Prone and Seriously Injured, the fighter does not move and attempts to put the fire out.\nTo attempt to put the fire out, roll a D6, adding 1 to the result for each other Active friendly fighter within 1\". On a roll of 6 or more, the flames go out and the Blaze condition is removed. Prone and Pinned or Seriously Injured fighters add 2 to the roll to see if the flames go out.",
+        "icon": "LocalFireDepartment"
+    },
+    {
+        "name": "Blind",
+        "description": "When hit by a weapon with the Flash trait, a fighter or vehicle risks becoming Blind. A Blind model loses their Ready marker; if they do not have a Ready marker, they do not gain a Ready marker at the start of the following round. Until the next time the model is activated, they cannot make any attacks other than Reaction attacks, for which any hit rolls will only succeed on a natural 6 (note: vehicles cannot make Reaction attacks).",
+        "icon": "VisibilityOff"
+    },
+    {
+        "name": "Concussion",
+        "description": "Any fighter hit by a Concussion weapon will have their Initiative reduced by 2, to a minimum of 6+, until the end of the round. Any vehicle hit by a Concussion weapon will suffer a -2 penalty to all Handling tests until the end of the round.",
+        "icon": "NotificationsOff"
+    },
+    {
+        "name": "Hidden",
+        "description": "Some scenarios or terrain special rules, such as the Visibility rules allow models to gain the Hidden condition. Hidden models can then lose this Condition over the course of a game by gaining the Revealed condition.",
+        "icon": "PersonSearch"
+    },
+    {
+        "name": "Intoxicated",
+        "description": "There are numerous special rules that can cause a model to become intoxicated. These include certain skills, special rules associated with terrain or Wargear, and more besides. Whatever the cause, the ways in which the Intoxicated condition affects a model are many and varied, and will be detailed by the special rules that cause the Condition.",
+        "icon": "LocalBar"
+    },
+    {
+        "name": "Insane",
+        "description": "Certain skills, some types of terrain and some scenario rules may lead a model to become temporarily insane. Models that have become subject to the Insane condition for any reason can act quite erratically when activated. When activating an Insane model, roll a D6 and consult the table below: D6 Result 1-2 The model immediately becomes Broken - or, if they were already Broken, they flee the battlefield (even if their gang has not failed a Bottle check). 3-4 The opposing player can control the Insane model for the duration of this activation, treating them as part of their gang in all respects until their activation ends. As soon as their activation ends, the Insane model no longer counts as being a part of the opposing gang. In the case of a multi-player game, the winner of a roll-off between the other players will control the Insane model. 5-6 The model can act as normal for the duration of this activation. Once their activation is over, make a Willpower test for them. If it is passed, they lose their Insanity marker.",
+        "icon": "Psychology"
+    },
+    {
+        "name": "Webbed",
+        "description": "While a fighter is Webbed, treat them as if they were Seriously Injured and roll for Recovery for them during the End phase (Web contains a powerful sedative capable of rendering the strongest fighter unconscious). If a Flesh Wound result is rolled during Recovery, apply the result to the fighter as usual and remove the Webbed condition. If a Serious Injury result is rolled, the fighter remains Webbed, but they do not gain a Flesh Wound. If an Out of Action result is rolled, the fighter succumbs to the powerful sedative and is removed from play. Instead of rolling on the Lasting Injury table, roll a D6 to determine what happens to them – on a result of 1-4 suffer the 15-26 (Out Cold) result, on a 5-6 they suffer the 55-56 (Captured) result (see the Lasting Injury Table). A fighter that is Webbed at the end of the battle does not succumb to their Injuries and will automatically recover.",
+        "icon": "Language"
+    },
+    {
+        "name": "Gunked",
+        "description": "When hit by a Gunked weapon: -1\" M (minimum 1\"). Don’t add D3\" when Charging. -1 modifier to Initiative. Blaze trigger on 2+.",
+        "icon": "Soap"
+    }
+]

@@ -1,0 +1,2783 @@
+[
+    {
+        "name": "Arc welder ('Jotunn' Servitor)",
+        "rng_s": "-",
+        "rng_l": "E",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "S+2",
+        "ap": "-3",
+        "dmg": "3",
+        "am": "-",
+        "traits": [
+            "Blaze"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Assault Grenade Launchers (Twin-linked) - frag grenades",
+        "rng_s": "6",
+        "rng_l": "24",
+        "acc_s": "-1",
+        "acc_l": "-",
+        "str": "3",
+        "ap": "-",
+        "dmg": "1",
+        "am": "6+",
+        "traits": [
+            "Blast (3)",
+            "Knockback",
+            "Rapid Fire (1)",
+            "Unstable"
+        ],
+        "type": "Special"
+    },
+    {
+        "name": "Assault Grenade Launchers (Twin-linked) - krak grenades",
+        "rng_s": "6",
+        "rng_l": "24",
+        "acc_s": "-1",
+        "acc_l": "-",
+        "str": "6",
+        "ap": "-2",
+        "dmg": "2",
+        "am": "6+",
+        "traits": [],
+        "type": "Special"
+    },
+    {
+        "name": "Assault Grenade Launchers (Twin-linked) - smoke grenades",
+        "rng_s": "6",
+        "rng_l": "24",
+        "acc_s": "-1",
+        "acc_l": "-",
+        "str": "-",
+        "ap": "-",
+        "dmg": "-",
+        "am": "4+",
+        "traits": [
+            "Blast (*)",
+            "Smoke"
+        ],
+        "type": "Special"
+    },
+    {
+        "name": "Assault Grenade Launchers (Twin-linked) - stun rounds",
+        "rng_s": "6",
+        "rng_l": "18",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "2",
+        "ap": "-1",
+        "dmg": "1",
+        "am": "4+",
+        "traits": [
+            "Concussion",
+            "Rapid Fire (1)"
+        ],
+        "type": "Special"
+    },
+    {
+        "name": "Augmetic fist ('Jotunn' Servitor)",
+        "rng_s": "-",
+        "rng_l": "E",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "S+1",
+        "ap": "-1",
+        "dmg": "2",
+        "am": "-",
+        "traits": [
+            "Knockback"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Autogun",
+        "rng_s": "8",
+        "rng_l": "24",
+        "acc_s": "+1",
+        "acc_l": "-",
+        "str": "3",
+        "ap": "-",
+        "dmg": "1",
+        "am": "4+",
+        "traits": [
+            "Rapid Fire (1)"
+        ],
+        "type": "Basic"
+    },
+    {
+        "name": "Autopistol",
+        "rng_s": "4",
+        "rng_l": "12",
+        "acc_s": "+1",
+        "acc_l": "-",
+        "str": "3",
+        "ap": "-",
+        "dmg": "1",
+        "am": "4+",
+        "traits": [
+            "Rapid Fire (1)",
+            "Sidearm"
+        ],
+        "type": "Pistol"
+    },
+    {
+        "name": "Axe",
+        "rng_s": "-",
+        "rng_l": "E",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "S+1",
+        "ap": "-1",
+        "dmg": "1",
+        "am": "-",
+        "traits": [
+            "Disarm"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Beak & talons (Cawdor Sheen bird)",
+        "rng_s": "-",
+        "rng_l": "E",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "S",
+        "ap": "-1",
+        "dmg": "2",
+        "am": "-",
+        "traits": [
+            "Rending"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Blasting charges",
+        "rng_s": "Sx2",
+        "rng_l": "-",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "5",
+        "ap": "-1",
+        "dmg": "2",
+        "am": "5+",
+        "traits": [
+            "Blast (5)",
+            "Grenade",
+            "Knockback"
+        ],
+        "type": "Grenade"
+    },
+    {
+        "name": "Bolt pistol",
+        "rng_s": "6",
+        "rng_l": "12",
+        "acc_s": "+1",
+        "acc_l": "-",
+        "str": "4",
+        "ap": "-1",
+        "dmg": "2",
+        "am": "6+",
+        "traits": [
+            "Sidearm"
+        ],
+        "type": "Pistol"
+    },
+    {
+        "name": "Boltgun",
+        "rng_s": "12",
+        "rng_l": "24",
+        "acc_s": "+1",
+        "acc_l": "-",
+        "str": "4",
+        "ap": "-1",
+        "dmg": "2",
+        "am": "6+",
+        "traits": [
+            "Rapid Fire (1)"
+        ],
+        "type": "Basic"
+    },
+    {
+        "name": "Boning sword",
+        "rng_s": "-",
+        "rng_l": "E",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "S",
+        "ap": "-2",
+        "dmg": "2",
+        "am": "-",
+        "traits": [
+            "Parry",
+            "Rending"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Brute cleaver",
+        "rng_s": "-",
+        "rng_l": "E",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "S",
+        "ap": "-1",
+        "dmg": "1",
+        "am": "-",
+        "traits": [
+            "Disarm"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Butcher's chain cleaver",
+        "rng_s": "-",
+        "rng_l": "E",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "S+1",
+        "ap": "-2",
+        "dmg": "2",
+        "am": "-",
+        "traits": [
+            "Shred"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Butcher's cleaver",
+        "rng_s": "-",
+        "rng_l": "E",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "S+1",
+        "ap": "-1",
+        "dmg": "1",
+        "am": "-",
+        "traits": [
+            "Disarm"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Cawdor heavy crossbow - frag",
+        "rng_s": "15",
+        "rng_l": "30",
+        "acc_s": "-",
+        "acc_l": "-1",
+        "str": "4",
+        "ap": "-",
+        "dmg": "1",
+        "am": "4+",
+        "traits": [
+            "Blast (5)",
+            "Knockback",
+            "Unwieldy"
+        ],
+        "type": "Heavy"
+    },
+    {
+        "name": "Cawdor heavy crossbow - krak",
+        "rng_s": "15",
+        "rng_l": "30",
+        "acc_s": "-",
+        "acc_l": "-1",
+        "str": "6",
+        "ap": "-2",
+        "dmg": "2",
+        "am": "6+",
+        "traits": [
+            "Unwieldy"
+        ],
+        "type": "Heavy"
+    },
+    {
+        "name": "Cawdor polearm (Cawdor Stig-Shambler)",
+        "rng_s": "E",
+        "rng_l": "2",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "S+1",
+        "ap": "-",
+        "dmg": "1",
+        "am": "-",
+        "traits": [
+            "Unwieldy",
+            "Versatile"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Cawdor Polearm/Autogun (Melee)",
+        "rng_s": "E",
+        "rng_l": "2",
+        "acc_s": "-1",
+        "acc_l": "-",
+        "str": "S+1",
+        "ap": "-",
+        "dmg": "1",
+        "am": "-",
+        "traits": [
+            "Melee"
+        ],
+        "type": "Basic"
+    },
+    {
+        "name": "Cawdor Polearm/Autogun (Ranged)",
+        "rng_s": "8",
+        "rng_l": "24",
+        "acc_s": "+1",
+        "acc_l": "-",
+        "str": "3",
+        "ap": "-",
+        "dmg": "1",
+        "am": "5+",
+        "traits": [
+            "Rapid Fire (1)"
+        ],
+        "type": "Basic"
+    },
+    {
+        "name": "Cawdor Polearm/Blunderbuss (Melee)",
+        "rng_s": "E",
+        "rng_l": "2",
+        "acc_s": "-1",
+        "acc_l": "-",
+        "str": "S+1",
+        "ap": "-",
+        "dmg": "1",
+        "am": "-",
+        "traits": [
+            "Melee"
+        ],
+        "type": "Basic"
+    },
+    {
+        "name": "Cawdor Polearm/Blunderbuss (Ranged) - grape shot",
+        "rng_s": "-",
+        "rng_l": "T",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "2",
+        "ap": "-",
+        "dmg": "1",
+        "am": "6+",
+        "traits": [
+            "Plentiful",
+            "Scattershot"
+        ],
+        "type": "Basic"
+    },
+    {
+        "name": "Cawdor Polearm/Blunderbuss (Ranged) - purgation shot",
+        "rng_s": "-",
+        "rng_l": "T",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "3",
+        "ap": "-",
+        "dmg": "1",
+        "am": "6+",
+        "traits": [
+            "Blaze",
+            "Scarce"
+        ],
+        "type": "Basic"
+    },
+    {
+        "name": "Cawdor Polearm/Blunderbuss (Ranged) Emperor’s Wrath rounds",
+        "rng_s": "8",
+        "rng_l": "12",
+        "acc_s": "-",
+        "acc_l": "-1",
+        "str": "4",
+        "ap": "-1",
+        "dmg": "2",
+        "am": "4+",
+        "traits": [
+            "Knockback",
+            "Pulverise"
+        ],
+        "type": "Basic"
+    },
+    {
+        "name": "Chain glaive",
+        "rng_s": "E",
+        "rng_l": "2",
+        "acc_s": "-1",
+        "acc_l": "-",
+        "str": "S+2",
+        "ap": "-2",
+        "dmg": "2",
+        "am": "-",
+        "traits": [
+            "Unwieldy",
+            "Versatile"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Chainaxe",
+        "rng_s": "-",
+        "rng_l": "E",
+        "acc_s": "-",
+        "acc_l": "+1",
+        "str": "S",
+        "ap": "-1",
+        "dmg": "1",
+        "am": "-",
+        "traits": [
+            "Rending",
+            "Parry",
+            "Disarm"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Chainsword",
+        "rng_s": "-",
+        "rng_l": "E",
+        "acc_s": "-",
+        "acc_l": "+1",
+        "str": "S",
+        "ap": "-1",
+        "dmg": "1",
+        "am": "-",
+        "traits": [
+            "Rending",
+            "Parry"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Chemical cloud breath weapon (Escher Khimerix)",
+        "rng_s": "6",
+        "rng_l": "12",
+        "acc_s": "+1",
+        "acc_l": "-",
+        "str": "3",
+        "ap": "-1",
+        "dmg": "1",
+        "am": "-",
+        "traits": [
+            "Blast (3)"
+        ],
+        "type": "Special"
+    },
+    {
+        "name": "Choke gas grenades",
+        "rng_s": "Sx3",
+        "rng_l": "-",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "-",
+        "ap": "-",
+        "dmg": "-",
+        "am": "5+",
+        "traits": [
+            "Blast (3)",
+            "Gas",
+            "Grenade"
+        ],
+        "type": "Grenade"
+    },
+    {
+        "name": "Combat Shotgun - firestorm ammo",
+        "rng_s": "-",
+        "rng_l": "T",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "5",
+        "ap": "-1",
+        "dmg": "1",
+        "am": "6+",
+        "traits": [
+            "Limited",
+            "Blaze",
+            "Limited"
+        ],
+        "type": "Basic"
+    },
+    {
+        "name": "Combat Shotgun - salvo",
+        "rng_s": "4",
+        "rng_l": "12",
+        "acc_s": "+1",
+        "acc_l": "-",
+        "str": "4",
+        "ap": "-",
+        "dmg": "2",
+        "am": "4+",
+        "traits": [
+            "Knockback",
+            "Rapid Fire (1)"
+        ],
+        "type": "Basic"
+    },
+    {
+        "name": "Combat Shotgun - shredder ammo",
+        "rng_s": "-",
+        "rng_l": "T",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "2",
+        "ap": "-",
+        "dmg": "1",
+        "am": "4+",
+        "traits": [
+            "Scattershot",
+            "Template"
+        ],
+        "type": "Basic"
+    },
+    {
+        "name": "Combi - autopistol (Primary Component)",
+        "rng_s": "4",
+        "rng_l": "12",
+        "acc_s": "+1",
+        "acc_l": "-",
+        "str": "3",
+        "ap": "-",
+        "dmg": "1",
+        "am": "4+",
+        "traits": [
+            "Combi",
+            "Rapid Fire (1)",
+            "Sidearm"
+        ],
+        "type": "Pistol"
+    },
+    {
+        "name": "Combi - bolt pistol (Primary Component)",
+        "rng_s": "6",
+        "rng_l": "12",
+        "acc_s": "+1",
+        "acc_l": "-",
+        "str": "4",
+        "ap": "-1",
+        "dmg": "2",
+        "am": "6+",
+        "traits": [
+            "Combi",
+            "Sidearm"
+        ],
+        "type": "Pistol"
+    },
+    {
+        "name": "Combi - hand flamer (Secondary Component)",
+        "rng_s": "-",
+        "rng_l": "T",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "3",
+        "ap": "-",
+        "dmg": "1",
+        "am": "5+",
+        "traits": [
+            "Blaze",
+            "Combi",
+            "Template",
+            "Unstable"
+        ],
+        "type": "Pistol"
+    },
+    {
+        "name": "Combi - plasma pistol (Secondary Component)",
+        "rng_s": "6",
+        "rng_l": "12",
+        "acc_s": "+2",
+        "acc_l": "-",
+        "str": "5",
+        "ap": "-1",
+        "dmg": "2",
+        "am": "5+",
+        "traits": [
+            "Combi",
+            "Scarce",
+            "Sidearm"
+        ],
+        "type": "Pistol"
+    },
+    {
+        "name": "Combi - stub gun (Primary Component)",
+        "rng_s": "6",
+        "rng_l": "12",
+        "acc_s": "+2",
+        "acc_l": "-",
+        "str": "3",
+        "ap": "-",
+        "dmg": "1",
+        "am": "4+",
+        "traits": [
+            "Combi",
+            "Plentiful",
+            "Sidearm"
+        ],
+        "type": "Pistol"
+    },
+    {
+        "name": "Combi-gun - autogun (Primary Component)",
+        "rng_s": "8",
+        "rng_l": "24",
+        "acc_s": "+1",
+        "acc_l": "-",
+        "str": "3",
+        "ap": "-",
+        "dmg": "1",
+        "am": "4+",
+        "traits": [
+            "Combi",
+            "Rapid Fire (1)"
+        ],
+        "type": "Special"
+    },
+    {
+        "name": "Combi-gun - bolter (Primary Component)",
+        "rng_s": "12",
+        "rng_l": "24",
+        "acc_s": "+1",
+        "acc_l": "-",
+        "str": "4",
+        "ap": "-1",
+        "dmg": "2",
+        "am": "6+",
+        "traits": [
+            "Combi",
+            "Rapid Fire (1)"
+        ],
+        "type": "Special"
+    },
+    {
+        "name": "Combi-gun - flamer (Secondary Component)",
+        "rng_s": "-",
+        "rng_l": "T",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "4",
+        "ap": "-1",
+        "dmg": "1",
+        "am": "5+",
+        "traits": [
+            "Blaze",
+            "Combi",
+            "Template",
+            "Unstable"
+        ],
+        "type": "Special"
+    },
+    {
+        "name": "Combi-gun - grenade launcher (frag) (Secondary Component)",
+        "rng_s": "6",
+        "rng_l": "24",
+        "acc_s": "-1",
+        "acc_l": "-",
+        "str": "3",
+        "ap": "-",
+        "dmg": "1",
+        "am": "*",
+        "traits": [
+            "Blast (3)"
+        ],
+        "type": "Special"
+    },
+    {
+        "name": "Combi-gun - lasgun (Primary Component)",
+        "rng_s": "18",
+        "rng_l": "24",
+        "acc_s": "+1",
+        "acc_l": "-",
+        "str": "3",
+        "ap": "-",
+        "dmg": "1",
+        "am": "2+",
+        "traits": [
+            "Combi",
+            "Plentiful"
+        ],
+        "type": "Special"
+    },
+    {
+        "name": "Combi-gun - melta (Secondary Component)",
+        "rng_s": "6",
+        "rng_l": "12",
+        "acc_s": "+1",
+        "acc_l": "-",
+        "str": "8",
+        "ap": "-4",
+        "dmg": "3",
+        "am": "4+",
+        "traits": [
+            "Combi",
+            "Melta",
+            "Scarce"
+        ],
+        "type": "Special"
+    },
+    {
+        "name": "Combi-gun - needler (Secondary Component)",
+        "rng_s": "9",
+        "rng_l": "18",
+        "acc_s": "+1",
+        "acc_l": "-",
+        "str": "-",
+        "ap": "-1",
+        "dmg": "-",
+        "am": "6+",
+        "traits": [
+            "Combi",
+            "Scarce",
+            "Silent",
+            "Toxin"
+        ],
+        "type": "Special"
+    },
+    {
+        "name": "Combi-gun - plasma gun (Secondary Component)",
+        "rng_s": "12",
+        "rng_l": "24",
+        "acc_s": "+2",
+        "acc_l": "-",
+        "str": "5",
+        "ap": "-1",
+        "dmg": "2",
+        "am": "5+",
+        "traits": [
+            "Combi",
+            "Rapid fire (1)",
+            "Scarce"
+        ],
+        "type": "Special"
+    },
+    {
+        "name": "Compact autopistol (gun skull)",
+        "rng_s": "4",
+        "rng_l": "12",
+        "acc_s": "+1",
+        "acc_l": "-",
+        "str": "2",
+        "ap": "-",
+        "dmg": "1",
+        "am": "4+",
+        "traits": [
+            "Rapid Fire (1)",
+            "Scarce"
+        ],
+        "type": "Pistol"
+    },
+    {
+        "name": "Demo charges",
+        "rng_s": "Sx2",
+        "rng_l": "-",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "6",
+        "ap": "-3",
+        "dmg": "3",
+        "am": "-",
+        "traits": [
+            "Blast (5)",
+            "Grenade",
+            "Single Shot"
+        ],
+        "type": "Grenade"
+    },
+    {
+        "name": "Digi laser",
+        "rng_s": "E",
+        "rng_l": "3",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "S",
+        "ap": "-",
+        "dmg": "1",
+        "am": "6+",
+        "traits": [
+            "Digi",
+            "Versatile"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Ferocious jaws (Goliath Sumpkroc)",
+        "rng_s": "-",
+        "rng_l": "E",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "S",
+        "ap": "-1",
+        "dmg": "1",
+        "am": "-",
+        "traits": [
+            "Rending"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Fighting knife",
+        "rng_s": "-",
+        "rng_l": "E",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "S",
+        "ap": "-1",
+        "dmg": "1",
+        "am": "-",
+        "traits": [
+            "Backstab"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Flail",
+        "rng_s": "-",
+        "rng_l": "E",
+        "acc_s": "-",
+        "acc_l": "+1",
+        "str": "S+1",
+        "ap": "-1",
+        "dmg": "1",
+        "am": "-",
+        "traits": [
+            "Entangle"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Flamer",
+        "rng_s": "-",
+        "rng_l": "T",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "4",
+        "ap": "-1",
+        "dmg": "1",
+        "am": "5+",
+        "traits": [
+            "Blaze",
+            "Template"
+        ],
+        "type": "Special"
+    },
+    {
+        "name": "Flechette pistol - solid ammo",
+        "rng_s": "4",
+        "rng_l": "12",
+        "acc_s": "+1",
+        "acc_l": "-",
+        "str": "3",
+        "ap": "-",
+        "dmg": "1",
+        "am": "4+",
+        "traits": [
+            "Rapid Fire (1)",
+            "Sidearm",
+            "Silent"
+        ],
+        "type": "Pistol"
+    },
+    {
+        "name": "Flensing knife",
+        "rng_s": "-",
+        "rng_l": "E",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "S",
+        "ap": "-1",
+        "dmg": "1",
+        "am": "-",
+        "traits": [
+            "Rending"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Frag grenades",
+        "rng_s": "Sx3",
+        "rng_l": "-",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "3",
+        "ap": "-",
+        "dmg": "1",
+        "am": "4+",
+        "traits": [
+            "Blast (3)",
+            "Grenade",
+            "Knockback"
+        ],
+        "type": "Grenade"
+    },
+    {
+        "name": "Frag trap",
+        "rng_s": "-",
+        "rng_l": "-",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "3",
+        "ap": "-",
+        "dmg": "1",
+        "am": "-",
+        "traits": [
+            "Blast (5)",
+            "Knockback",
+            "Single Shot"
+        ],
+        "type": "Booby Trap"
+    },
+    {
+        "name": "Gas trap",
+        "rng_s": "-",
+        "rng_l": "-",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "-",
+        "ap": "-",
+        "dmg": "-",
+        "am": "-",
+        "traits": [
+            "Blast (5)",
+            "Gas",
+            "Single Shot"
+        ],
+        "type": "Booby Trap"
+    },
+    {
+        "name": "Gaseous eruption breath weapon (Escher Khimerix)",
+        "rng_s": "-",
+        "rng_l": "T",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "-",
+        "ap": "-",
+        "dmg": "-",
+        "am": "-",
+        "traits": [
+            "Gas",
+            "Template"
+        ],
+        "type": "Special"
+    },
+    {
+        "name": "Grav gun",
+        "rng_s": "9",
+        "rng_l": "18",
+        "acc_s": "+1",
+        "acc_l": "-",
+        "str": "*",
+        "ap": "-1",
+        "dmg": "2",
+        "am": "5+",
+        "traits": [
+            "Blast (3)",
+            "Concussion",
+            "Graviton Pulse"
+        ],
+        "type": "Special"
+    },
+    {
+        "name": "Grav-fist (Ambot)",
+        "rng_s": "-",
+        "rng_l": "E",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "S",
+        "ap": "-1",
+        "dmg": "1",
+        "am": "-",
+        "traits": [],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Grav-fist (Ambot) - melee",
+        "rng_s": "-",
+        "rng_l": "E",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "S",
+        "ap": "-1",
+        "dmg": "1",
+        "am": "-",
+        "traits": [
+            "Pulverise"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Grav-fist (Ambot) - ranged",
+        "rng_s": "6",
+        "rng_l": "12",
+        "acc_s": "+1",
+        "acc_l": "-",
+        "str": "*",
+        "ap": "-1",
+        "dmg": "2",
+        "am": "5+",
+        "traits": [
+            "Blast (3)",
+            "Graviton Pulse",
+            "Concussion"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Grenade launcher - choke gas grenades",
+        "rng_s": "6",
+        "rng_l": "24",
+        "acc_s": "-1",
+        "acc_l": "-",
+        "str": "-",
+        "ap": "-",
+        "dmg": "-",
+        "am": "5+",
+        "traits": [
+            "Blast (3)",
+            "Gas",
+            "Limited"
+        ],
+        "type": "Special"
+    },
+    {
+        "name": "Grenade launcher - frag grenades",
+        "rng_s": "6",
+        "rng_l": "24",
+        "acc_s": "-1",
+        "acc_l": "-",
+        "str": "3",
+        "ap": "-",
+        "dmg": "1",
+        "am": "6+",
+        "traits": [
+            "Blast (3)",
+            "Knockback"
+        ],
+        "type": "Special"
+    },
+    {
+        "name": "Grenade launcher - krak grenades",
+        "rng_s": "6",
+        "rng_l": "24",
+        "acc_s": "-1",
+        "acc_l": "-",
+        "str": "6",
+        "ap": "-2",
+        "dmg": "2",
+        "am": "6+",
+        "traits": [],
+        "type": "Special"
+    },
+    {
+        "name": "Grenade launcher - photon flash grenades",
+        "rng_s": "6",
+        "rng_l": "24",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "-",
+        "ap": "-",
+        "dmg": "-",
+        "am": "5+",
+        "traits": [
+            "Blast (5)",
+            "Flash"
+        ],
+        "type": "Special"
+    },
+    {
+        "name": "Grenade launcher - scare gas grenades",
+        "rng_s": "6",
+        "rng_l": "24",
+        "acc_s": "-1",
+        "acc_l": "-",
+        "str": "-",
+        "ap": "-",
+        "dmg": "-",
+        "am": "6+",
+        "traits": [
+            "Blast (3)",
+            "Fear",
+            "Gas",
+            "Limited"
+        ],
+        "type": "Special"
+    },
+    {
+        "name": "Grenade launcher - smoke grenades",
+        "rng_s": "6",
+        "rng_l": "24",
+        "acc_s": "-1",
+        "acc_l": "-",
+        "str": "-",
+        "ap": "-",
+        "dmg": "-",
+        "am": "4+",
+        "traits": [
+            "Smoke"
+        ],
+        "type": "Special"
+    },
+    {
+        "name": "Hand Flamer",
+        "rng_s": "-",
+        "rng_l": "T",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "3",
+        "ap": "-",
+        "dmg": "1",
+        "am": "5+",
+        "traits": [
+            "Blaze",
+            "Combi",
+            "Template",
+            "Unstable"
+        ],
+        "type": "Pistol"
+    },
+    {
+        "name": "Harpoon launcher",
+        "rng_s": "6",
+        "rng_l": "18",
+        "acc_s": "+2",
+        "acc_l": "-",
+        "str": "5",
+        "ap": "-3",
+        "dmg": "1",
+        "am": "5+",
+        "traits": [
+            "Drag",
+            "Impale",
+            "Scarce"
+        ],
+        "type": "Heavy"
+    },
+    {
+        "name": "Heavy bolter",
+        "rng_s": "18",
+        "rng_l": "36",
+        "acc_s": "+1",
+        "acc_l": "-",
+        "str": "5",
+        "ap": "-2",
+        "dmg": "2",
+        "am": "6+",
+        "traits": [
+            "Rapid Fire (2)",
+            "Unwieldy"
+        ],
+        "type": "Heavy"
+    },
+    {
+        "name": "Heavy chain cleaver",
+        "rng_s": "-",
+        "rng_l": "E",
+        "acc_s": "-",
+        "acc_l": "+1",
+        "str": "S+2",
+        "ap": "-2",
+        "dmg": "2",
+        "am": "-",
+        "traits": [
+            "Sever"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Heavy club (Cawdor Stig)",
+        "rng_s": "-",
+        "rng_l": "E",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "S",
+        "ap": "-",
+        "dmg": "2",
+        "am": "-",
+        "traits": [],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Heavy flamer",
+        "rng_s": "-",
+        "rng_l": "T",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "5",
+        "ap": "-2",
+        "dmg": "1",
+        "am": "5+",
+        "traits": [
+            "Blaze",
+            "Template",
+            "Unwieldy"
+        ],
+        "type": "Heavy"
+    },
+    {
+        "name": "Heavy rock cutter",
+        "rng_s": "-",
+        "rng_l": "E",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "S+4",
+        "ap": "-4",
+        "dmg": "3",
+        "am": "-",
+        "traits": [
+            "Unwieldy"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Heavy rock drill",
+        "rng_s": "-",
+        "rng_l": "E",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "S+2",
+        "ap": "-3",
+        "dmg": "2",
+        "am": "-",
+        "traits": [
+            "Unwieldy",
+            "Pulverise"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Heavy rock saw",
+        "rng_s": "-",
+        "rng_l": "E",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "S+3",
+        "ap": "-3",
+        "dmg": "2",
+        "am": "-",
+        "traits": [
+            "Unwieldy",
+            "Rending"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Heavy stubber",
+        "rng_s": "20",
+        "rng_l": "40",
+        "acc_s": "-",
+        "acc_l": "-1",
+        "str": "4",
+        "ap": "-1",
+        "dmg": "1",
+        "am": "4+",
+        "traits": [
+            "Rapid Fire (2)",
+            "Unwieldy"
+        ],
+        "type": "Heavy"
+    },
+    {
+        "name": "Hystrar pattern energy shield",
+        "rng_s": "-",
+        "rng_l": "E",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "S",
+        "ap": "-1",
+        "dmg": "1",
+        "am": "-",
+        "traits": [
+            "Knockback",
+            "Energy Shield"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Incendiary charges",
+        "rng_s": "Sx3",
+        "rng_l": "-",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "3",
+        "ap": "-",
+        "dmg": "1",
+        "am": "5+",
+        "traits": [
+            "Blast (5)",
+            "Blaze",
+            "Grenade"
+        ],
+        "type": "Grenade"
+    },
+    {
+        "name": "Krak grenades",
+        "rng_s": "Sx3",
+        "rng_l": "-",
+        "acc_s": "-1",
+        "acc_l": "-",
+        "str": "6",
+        "ap": "-2",
+        "dmg": "2",
+        "am": "4+",
+        "traits": [
+            "Demolitions",
+            "Grenade"
+        ],
+        "type": "Grenade"
+    },
+    {
+        "name": "Krumper rivet cannon - rapid fire",
+        "rng_s": "3",
+        "rng_l": "9",
+        "acc_s": "+2",
+        "acc_l": "-",
+        "str": "4",
+        "ap": "-1",
+        "dmg": "2",
+        "am": "3+",
+        "traits": [
+            "Rapid Fire (1)",
+            "Rending"
+        ],
+        "type": "Heavy"
+    },
+    {
+        "name": "Krumper rivet cannon - super-heated",
+        "rng_s": "3",
+        "rng_l": "9",
+        "acc_s": "+2",
+        "acc_l": "-",
+        "str": "6",
+        "ap": "-2",
+        "dmg": "2",
+        "am": "3+",
+        "traits": [
+            "Blaze",
+            "Rending"
+        ],
+        "type": "Heavy"
+    },
+    {
+        "name": "Las carbine",
+        "rng_s": "10",
+        "rng_l": "24",
+        "acc_s": "+1",
+        "acc_l": "-",
+        "str": "3",
+        "ap": "-",
+        "dmg": "1",
+        "am": "4+",
+        "traits": [
+            "Plentiful"
+        ],
+        "type": "Basic"
+    },
+    {
+        "name": "Las cutter",
+        "rng_s": "E",
+        "rng_l": "2",
+        "acc_s": "+1",
+        "acc_l": "-",
+        "str": "9",
+        "ap": "-3",
+        "dmg": "2",
+        "am": "6+",
+        "traits": [
+            "Scarce",
+            "Versatile"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Las sub-carbine",
+        "rng_s": "4",
+        "rng_l": "12",
+        "acc_s": "+1",
+        "acc_l": "-",
+        "str": "3",
+        "ap": "-",
+        "dmg": "1",
+        "am": "4+",
+        "traits": [
+            "Plentiful",
+            "Rapid Fire (1)",
+            "Sidearm"
+        ],
+        "type": "Pistol"
+    },
+    {
+        "name": "Lascannon",
+        "rng_s": "24",
+        "rng_l": "48",
+        "acc_s": "-",
+        "acc_l": "+1",
+        "str": "10",
+        "ap": "-3",
+        "dmg": "3",
+        "am": "4+",
+        "traits": [
+            "Knockback",
+            "Unwieldy"
+        ],
+        "type": "Heavy"
+    },
+    {
+        "name": "Lasgun",
+        "rng_s": "18",
+        "rng_l": "24",
+        "acc_s": "+1",
+        "acc_l": "-",
+        "str": "3",
+        "ap": "-",
+        "dmg": "1",
+        "am": "2+",
+        "traits": [
+            "Plentiful"
+        ],
+        "type": "Basic"
+    },
+    {
+        "name": "Laspistol",
+        "rng_s": "8",
+        "rng_l": "12",
+        "acc_s": "+1",
+        "acc_l": "-",
+        "str": "3",
+        "ap": "-",
+        "dmg": "1",
+        "am": "2+",
+        "traits": [
+            "Plentiful",
+            "Sidearm"
+        ],
+        "type": "Pistol"
+    },
+    {
+        "name": "Long las",
+        "rng_s": "18",
+        "rng_l": "36",
+        "acc_s": "-",
+        "acc_l": "+1",
+        "str": "4",
+        "ap": "-",
+        "dmg": "1",
+        "am": "2+",
+        "traits": [
+            "Plentiful"
+        ],
+        "type": "Special"
+    },
+    {
+        "name": "Long rifle",
+        "rng_s": "24",
+        "rng_l": "48",
+        "acc_s": "-",
+        "acc_l": "+1",
+        "str": "4",
+        "ap": "-1",
+        "dmg": "1",
+        "am": "4+",
+        "traits": [
+            "Knockback"
+        ],
+        "type": "Special"
+    },
+    {
+        "name": "Maul (club)",
+        "rng_s": "-",
+        "rng_l": "E",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "S",
+        "ap": "1",
+        "dmg": "2",
+        "am": "-",
+        "traits": [],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Melta bombs",
+        "rng_s": "Sx3",
+        "rng_l": "-",
+        "acc_s": "-1",
+        "acc_l": "-",
+        "str": "8",
+        "ap": "-4",
+        "dmg": "3",
+        "am": "6+",
+        "traits": [
+            "Demolitions",
+            "Grenade",
+            "Melta",
+            "Scarce"
+        ],
+        "type": "Grenade"
+    },
+    {
+        "name": "Melta trap",
+        "rng_s": "-",
+        "rng_l": "-",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "8",
+        "ap": "-4",
+        "dmg": "3",
+        "am": "-",
+        "traits": [
+            "Blast (5)",
+            "Melta",
+            "Single Shot"
+        ],
+        "type": "Booby Trap"
+    },
+    {
+        "name": "Meltagun",
+        "rng_s": "6",
+        "rng_l": "12",
+        "acc_s": "+1",
+        "acc_l": "-",
+        "str": "8",
+        "ap": "-4",
+        "dmg": "3",
+        "am": "4+",
+        "traits": [
+            "Melta",
+            "Scarce"
+        ],
+        "type": "Special"
+    },
+    {
+        "name": "Mining laser",
+        "rng_s": "18",
+        "rng_l": "24",
+        "acc_s": "-",
+        "acc_l": "-1",
+        "str": "9",
+        "ap": "-3",
+        "dmg": "3",
+        "am": "3+",
+        "traits": [
+            "Unwieldy"
+        ],
+        "type": "Heavy"
+    },
+    {
+        "name": "Missile launcher - frag missile",
+        "rng_s": "24",
+        "rng_l": "48",
+        "acc_s": "+1",
+        "acc_l": "-",
+        "str": "4",
+        "ap": "-1",
+        "dmg": "1",
+        "am": "6+",
+        "traits": [
+            "Blast (5)",
+            "Knockback",
+            "Unwieldy"
+        ],
+        "type": "Heavy"
+    },
+    {
+        "name": "Missile launcher - krak missile",
+        "rng_s": "24",
+        "rng_l": "48",
+        "acc_s": "+1",
+        "acc_l": "-",
+        "str": "6",
+        "ap": "-2",
+        "dmg": "3",
+        "am": "6+",
+        "traits": [
+            "Unwieldy"
+        ],
+        "type": "Heavy"
+    },
+    {
+        "name": "Multi-melta",
+        "rng_s": "12",
+        "rng_l": "24",
+        "acc_s": "+1",
+        "acc_l": "-",
+        "str": "8",
+        "ap": "-4",
+        "dmg": "3",
+        "am": "4+",
+        "traits": [
+            "Blast (3)",
+            "Melta",
+            "Scarce",
+            "Unwieldy"
+        ],
+        "type": "Heavy"
+    },
+    {
+        "name": "Mutated fists & bone Spurs (Goliath ’Zerker)",
+        "rng_s": "E",
+        "rng_l": "2",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "S+1",
+        "ap": "-2",
+        "dmg": "2",
+        "am": "-",
+        "traits": [
+            "Knockback",
+            "Pulverise",
+            "Versatile"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Needle pistol",
+        "rng_s": "4",
+        "rng_l": "9",
+        "acc_s": "+2",
+        "acc_l": "-",
+        "str": "-",
+        "ap": "-1",
+        "dmg": "-",
+        "am": "6+",
+        "traits": [
+            "Scarce",
+            "Sidearm",
+            "Silent",
+            "Toxin"
+        ],
+        "type": "Pistol"
+    },
+    {
+        "name": "Needle rifle",
+        "rng_s": "9",
+        "rng_l": "18",
+        "acc_s": "+2",
+        "acc_l": "-",
+        "str": "-",
+        "ap": "-2",
+        "dmg": "-",
+        "am": "6+",
+        "traits": [
+            "Scarce",
+            "Silent",
+            "Toxin"
+        ],
+        "type": "Special"
+    },
+    {
+        "name": "Nightshade chem-thrower",
+        "rng_s": "-",
+        "rng_l": "T",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "-",
+        "ap": "-",
+        "dmg": "-",
+        "am": "5+",
+        "traits": [
+            "Gas",
+            "Silent",
+            "Template"
+        ],
+        "type": "Special"
+    },
+    {
+        "name": "Open fists (Goliath ’Zerker)",
+        "rng_s": "-",
+        "rng_l": "E",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "S",
+        "ap": "-1",
+        "dmg": "1",
+        "am": "-",
+        "traits": [
+            "Knockback"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Paired Heavy chain cleavers",
+        "rng_s": "-",
+        "rng_l": "E",
+        "acc_s": "-",
+        "acc_l": "+1",
+        "str": "S+2",
+        "ap": "-2",
+        "dmg": "2",
+        "am": "-",
+        "traits": [
+            "Sever",
+            "Paired"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Photon flash grenades",
+        "rng_s": "Sx3",
+        "rng_l": "-",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "-",
+        "ap": "-",
+        "dmg": "-",
+        "am": "5+",
+        "traits": [
+            "Blast (5)",
+            "Flash",
+            "Grenade"
+        ],
+        "type": "Grenade"
+    },
+    {
+        "name": "Plasma cannon - low",
+        "rng_s": "18",
+        "rng_l": "36",
+        "acc_s": "+1",
+        "acc_l": "-",
+        "str": "6",
+        "ap": "-1",
+        "dmg": "2",
+        "am": "5+",
+        "traits": [
+            "Rapid Fire (1)",
+            "Scarce",
+            "Unwieldy"
+        ],
+        "type": "Heavy"
+    },
+    {
+        "name": "Plasma cannon - maximal",
+        "rng_s": "18",
+        "rng_l": "36",
+        "acc_s": "+1",
+        "acc_l": "-",
+        "str": "8",
+        "ap": "-2",
+        "dmg": "3",
+        "am": "5+",
+        "traits": [
+            "Blast (3)"
+        ],
+        "type": "Heavy"
+    },
+    {
+        "name": "Plasma gun - Low",
+        "rng_s": "12",
+        "rng_l": "24",
+        "acc_s": "+2",
+        "acc_l": "-",
+        "str": "5",
+        "ap": "-1",
+        "dmg": "2",
+        "am": "5+",
+        "traits": [
+            "Rapid Fire (1)",
+            "Scarce"
+        ],
+        "type": "Special"
+    },
+    {
+        "name": "Plasma gun - Maximal",
+        "rng_s": "12",
+        "rng_l": "24",
+        "acc_s": "+1",
+        "acc_l": "-",
+        "str": "7",
+        "ap": "-2",
+        "dmg": "3",
+        "am": "5+",
+        "traits": [
+            "Scarce",
+            "Unstable"
+        ],
+        "type": "Special"
+    },
+    {
+        "name": "Plasma Pistol - low",
+        "rng_s": "6",
+        "rng_l": "12",
+        "acc_s": "+2",
+        "acc_l": "-",
+        "str": "5",
+        "ap": "-1",
+        "dmg": "2",
+        "am": "5+",
+        "traits": [
+            "Scarce",
+            "Sidearm"
+        ],
+        "type": "Pistol"
+    },
+    {
+        "name": "Plasma Pistol - maximal",
+        "rng_s": "6",
+        "rng_l": "12",
+        "acc_s": "+1",
+        "acc_l": "-",
+        "str": "7",
+        "ap": "-2",
+        "dmg": "3",
+        "am": "5+",
+        "traits": [
+            "Scarce",
+            "Sidearm",
+            "Unstable"
+        ],
+        "type": "Pistol"
+    },
+    {
+        "name": "Power axe",
+        "rng_s": "-",
+        "rng_l": "E",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "S+2",
+        "ap": "-2",
+        "dmg": "1",
+        "am": "-",
+        "traits": [
+            "Disarm",
+            "Power"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Power hammer",
+        "rng_s": "-",
+        "rng_l": "E",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "S+1",
+        "ap": "-1",
+        "dmg": "2",
+        "am": "-",
+        "traits": [
+            "Power"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Power knife",
+        "rng_s": "-",
+        "rng_l": "E",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "S+1",
+        "ap": "-2",
+        "dmg": "1",
+        "am": "-",
+        "traits": [
+            "Backstab",
+            "Power"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Power maul",
+        "rng_s": "-",
+        "rng_l": "E",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "S+2",
+        "ap": "-1",
+        "dmg": "1",
+        "am": "-",
+        "traits": [
+            "Power"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Power pick",
+        "rng_s": "-",
+        "rng_l": "E",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "S+1",
+        "ap": "-3",
+        "dmg": "1",
+        "am": "-",
+        "traits": [
+            "Power",
+            "Pulverise"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Power sword",
+        "rng_s": "-",
+        "rng_l": "E",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "S+1",
+        "ap": "-2",
+        "dmg": "1",
+        "am": "-",
+        "traits": [
+            "Parry",
+            "Power"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Rad cannon",
+        "rng_s": "16",
+        "rng_l": "32",
+        "acc_s": "-",
+        "acc_l": "-1",
+        "str": "2",
+        "ap": "-2",
+        "dmg": "1",
+        "am": "4+",
+        "traits": [
+            "Blast (5)",
+            "Rad-phage",
+            "Unwieldy"
+        ],
+        "type": "Heavy"
+    },
+    {
+        "name": "Rad grenades",
+        "rng_s": "Sx3",
+        "rng_l": "-",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "2",
+        "ap": "-2",
+        "dmg": "1",
+        "am": "4+",
+        "traits": [
+            "Blast (3)",
+            "Rad-phage",
+            "Grenade"
+        ],
+        "type": "Grenade"
+    },
+    {
+        "name": "Rad gun",
+        "rng_s": "-",
+        "rng_l": "T",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "2",
+        "ap": "-2",
+        "dmg": "1",
+        "am": "4+",
+        "traits": [
+            "Rad-phage",
+            "Template"
+        ],
+        "type": "Special"
+    },
+    {
+        "name": "Razor Sharp Talons (Escher Khimerix)",
+        "rng_s": "-",
+        "rng_l": "E",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "S+1",
+        "ap": "-2",
+        "dmg": "3",
+        "am": "-",
+        "traits": [
+            "Rending"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Reclaimed autogun",
+        "rng_s": "8",
+        "rng_l": "24",
+        "acc_s": "+1",
+        "acc_l": "-",
+        "str": "3",
+        "ap": "-",
+        "dmg": "1",
+        "am": "5+",
+        "traits": [
+            "Rapid Fire (1)"
+        ],
+        "type": "Basic"
+    },
+    {
+        "name": "Reclaimed autopistol",
+        "rng_s": "4",
+        "rng_l": "12",
+        "acc_s": "+1",
+        "acc_l": "-",
+        "str": "3",
+        "ap": "-",
+        "dmg": "1",
+        "am": "5+",
+        "traits": [
+            "Rapid Fire (1)",
+            "Sidearm"
+        ],
+        "type": "Pistol"
+    },
+    {
+        "name": "Renderizer serrated axe",
+        "rng_s": "-",
+        "rng_l": "E",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "S+2",
+        "ap": "-1",
+        "dmg": "2",
+        "am": "-",
+        "traits": [
+            "Unwieldy",
+            "Pulverise"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Rotary flensing saw",
+        "rng_s": "E",
+        "rng_l": "4\"",
+        "acc_s": "-",
+        "acc_l": "-1",
+        "str": "S+1",
+        "ap": "-2",
+        "dmg": "2",
+        "am": "-",
+        "traits": [
+            "Knockback",
+            "Shred",
+            "Versatile"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Savage Bite (Cyber-mastiff)",
+        "rng_s": "-",
+        "rng_l": "E",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "S",
+        "ap": "-2",
+        "dmg": "1",
+        "am": "-",
+        "traits": [
+            "Disarm"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Sawn-off shotgun",
+        "rng_s": "4",
+        "rng_l": "8",
+        "acc_s": "+2",
+        "acc_l": "-",
+        "str": "3",
+        "ap": "-",
+        "dmg": "1",
+        "am": "6+",
+        "traits": [
+            "Plentiful",
+            "Scattershot"
+        ],
+        "type": "Basic"
+    },
+    {
+        "name": "Scare gas grenades",
+        "rng_s": "Sx3",
+        "rng_l": "-",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "-",
+        "ap": "-",
+        "dmg": "-",
+        "am": "6+",
+        "traits": [
+            "Blast (3)",
+            "Fear",
+            "Gas",
+            "Grenade"
+        ],
+        "type": "Grenade"
+    },
+    {
+        "name": "Seismic cannon - long wave",
+        "rng_s": "12",
+        "rng_l": "24",
+        "acc_s": "-1",
+        "acc_l": "-",
+        "str": "3",
+        "ap": "-",
+        "dmg": "1",
+        "am": "5+",
+        "traits": [
+            "Knockback",
+            "Rapid Fire (2)",
+            "Seismic",
+            "Unwieldy"
+        ],
+        "type": "Heavy"
+    },
+    {
+        "name": "Seismic cannon - short wave",
+        "rng_s": "12",
+        "rng_l": "24",
+        "acc_s": "-",
+        "acc_l": "-1",
+        "str": "6",
+        "ap": "-1",
+        "dmg": "2",
+        "am": "5+",
+        "traits": [
+            "Knockback",
+            "Rapid Fire (1)",
+            "Seismic",
+            "Unwieldy"
+        ],
+        "type": "Heavy"
+    },
+    {
+        "name": "Servitor combat weapon (Orlock Lugger)",
+        "rng_s": "-",
+        "rng_l": "E",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "S",
+        "ap": "-1",
+        "dmg": "1",
+        "am": "-",
+        "traits": [
+            "Knockback"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Servo arm (Van Saar Servo-suit)",
+        "rng_s": "E",
+        "rng_l": "3",
+        "acc_s": "-",
+        "acc_l": "+1",
+        "str": "S",
+        "ap": "-",
+        "dmg": "1",
+        "am": "-",
+        "traits": [
+            "Versatile"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Servo claw",
+        "rng_s": "-",
+        "rng_l": "E",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "S+2",
+        "ap": "-",
+        "dmg": "2",
+        "am": "-",
+        "traits": [],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Shock baton",
+        "rng_s": "-",
+        "rng_l": "E",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "S",
+        "ap": "-",
+        "dmg": "1",
+        "am": "-",
+        "traits": [
+            "Shock",
+            "Parry"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Shock stave",
+        "rng_s": "E",
+        "rng_l": "2",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "S+1",
+        "ap": "-",
+        "dmg": "1",
+        "am": "-",
+        "traits": [
+            "Shock",
+            "Versatile"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Shock tendrils (Delaque Cephalopod Spekter)",
+        "rng_s": "E",
+        "rng_l": "2",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "S+1",
+        "ap": "-",
+        "dmg": "1",
+        "am": "-",
+        "traits": [
+            "Shock",
+            "Versatile"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Shock whip",
+        "rng_s": "E",
+        "rng_l": "3",
+        "acc_s": "-1",
+        "acc_l": "-",
+        "str": "S+1",
+        "ap": "-1",
+        "dmg": "3",
+        "am": "-",
+        "traits": [
+            "Versatile",
+            "Shock"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Shotgun - acid rounds",
+        "rng_s": "4",
+        "rng_l": "8",
+        "acc_s": "+1",
+        "acc_l": "-",
+        "str": "3",
+        "ap": "-1",
+        "dmg": "1",
+        "am": "5+",
+        "traits": [
+            "Blaze",
+            "Scattershot"
+        ],
+        "type": "Basic"
+    },
+    {
+        "name": "Shotgun - executioner ammo",
+        "rng_s": "4",
+        "rng_l": "16",
+        "acc_s": "-1",
+        "acc_l": "+1",
+        "str": "4",
+        "ap": "-2",
+        "dmg": "2",
+        "am": "6+",
+        "traits": [
+            "Knockback",
+            "Limited"
+        ],
+        "type": "Basic"
+    },
+    {
+        "name": "Shotgun - inferno ammo",
+        "rng_s": "4",
+        "rng_l": "16",
+        "acc_s": "+1",
+        "acc_l": "-",
+        "str": "4",
+        "ap": "-",
+        "dmg": "2",
+        "am": "5+",
+        "traits": [
+            "Blaze",
+            "Limited"
+        ],
+        "type": "Basic"
+    },
+    {
+        "name": "Shotgun - scatter ammo",
+        "rng_s": "4",
+        "rng_l": "8",
+        "acc_s": "+2",
+        "acc_l": "-",
+        "str": "2",
+        "ap": "-",
+        "dmg": "1",
+        "am": "4+",
+        "traits": [
+            "Scattershot"
+        ],
+        "type": "Basic"
+    },
+    {
+        "name": "Shotgun - solid ammo",
+        "rng_s": "8",
+        "rng_l": "16",
+        "acc_s": "+1",
+        "acc_l": "-",
+        "str": "4",
+        "ap": "-",
+        "dmg": "2",
+        "am": "4+",
+        "traits": [
+            "Knockback"
+        ],
+        "type": "Basic"
+    },
+    {
+        "name": "Smoke grenades",
+        "rng_s": "Sx3",
+        "rng_l": "-",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "-",
+        "ap": "-",
+        "dmg": "-",
+        "am": "4+",
+        "traits": [
+            "Grenade",
+            "Smoke"
+        ],
+        "type": "Grenade"
+    },
+    {
+        "name": "Spud-jacker",
+        "rng_s": "-",
+        "rng_l": "E",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "S+1",
+        "ap": "-",
+        "dmg": "1",
+        "am": "-",
+        "traits": [
+            "Knockback"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Stiletto knife",
+        "rng_s": "-",
+        "rng_l": "E",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "S",
+        "ap": "-1",
+        "dmg": "1",
+        "am": "-",
+        "traits": [
+            "Toxic"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Stiletto sword",
+        "rng_s": "-",
+        "rng_l": "E",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "S",
+        "ap": "-1",
+        "dmg": "1",
+        "am": "-",
+        "traits": [
+            "Parry",
+            "Toxic"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Storm-welder",
+        "rng_s": "8",
+        "rng_l": "16",
+        "acc_s": "+1",
+        "acc_l": "-",
+        "str": "5",
+        "ap": "-",
+        "dmg": "1",
+        "am": "3+",
+        "traits": [
+            "Rapid Fire (3)",
+            "Reckless",
+            "Shock",
+            "Unstable"
+        ],
+        "type": "Special"
+    },
+    {
+        "name": "Stub cannon",
+        "rng_s": "9",
+        "rng_l": "18",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "5",
+        "ap": "-",
+        "dmg": "1",
+        "am": "3+",
+        "traits": [
+            "Knockback"
+        ],
+        "type": "Basic"
+    },
+    {
+        "name": "Stub gun",
+        "rng_s": "6",
+        "rng_l": "12",
+        "acc_s": "+2",
+        "acc_l": "-",
+        "str": "3",
+        "ap": "-",
+        "dmg": "1",
+        "am": "4+",
+        "traits": [
+            "Plentiful",
+            "Sidearm"
+        ],
+        "type": "Pistol"
+    },
+    {
+        "name": "Stub gun with dumdum rounds",
+        "rng_s": "5",
+        "rng_l": "10",
+        "acc_s": "+1",
+        "acc_l": "-",
+        "str": "4",
+        "ap": "-",
+        "dmg": "1",
+        "am": "4+",
+        "traits": [
+            "Limited",
+            "Sidearm"
+        ],
+        "type": "Pistol"
+    },
+    {
+        "name": "Stun grenades",
+        "rng_s": "Sx3",
+        "rng_l": "-",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "2",
+        "ap": "-1",
+        "dmg": "1",
+        "am": "4+",
+        "traits": [
+            "Grenade",
+            "Concussion"
+        ],
+        "type": "Grenade"
+    },
+    {
+        "name": "Suppression laser - broad burst",
+        "rng_s": "4",
+        "rng_l": "8",
+        "acc_s": "+2",
+        "acc_l": "-",
+        "str": "2",
+        "ap": "-",
+        "dmg": "1",
+        "am": "4+",
+        "traits": [
+            "Plentiful",
+            "Scattershot"
+        ],
+        "type": "Basic"
+    },
+    {
+        "name": "Suppression laser - short burst",
+        "rng_s": "8",
+        "rng_l": "16",
+        "acc_s": "+1",
+        "acc_l": "-",
+        "str": "4",
+        "ap": "-",
+        "dmg": "2",
+        "am": "4+",
+        "traits": [
+            "Knockback",
+            "Plentiful"
+        ],
+        "type": "Basic"
+    },
+    {
+        "name": "Sword",
+        "rng_s": "-",
+        "rng_l": "E",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "S",
+        "ap": "-1",
+        "dmg": "1",
+        "am": "-",
+        "traits": [
+            "Parry"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Talons (Escher Khimerix and Phyrr Cat)",
+        "rng_s": "-",
+        "rng_l": "E",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "S",
+        "ap": "-1",
+        "dmg": "2",
+        "am": "-",
+        "traits": [
+            "Pulverise"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Throwing knives",
+        "rng_s": "Sx2",
+        "rng_l": "Sx4",
+        "acc_s": "-",
+        "acc_l": "-1",
+        "str": "-",
+        "ap": "-1",
+        "dmg": "-",
+        "am": "5+",
+        "traits": [
+            "Scarce",
+            "Silent",
+            "Toxic"
+        ],
+        "type": "Basic"
+    },
+    {
+        "name": "Thunder hammer",
+        "rng_s": "-",
+        "rng_l": "E",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "S+1",
+        "ap": "-1",
+        "dmg": "3",
+        "am": "-",
+        "traits": [
+            "Power",
+            "Shock"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Tunnelling claw (Ambot) - melee",
+        "rng_s": "-",
+        "rng_l": "E",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "S",
+        "ap": "-1",
+        "dmg": "2",
+        "am": "-",
+        "traits": [],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Tunnelling claw (Ambot) - ranged",
+        "rng_s": "4",
+        "rng_l": "8",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "6",
+        "ap": "-2",
+        "dmg": "2",
+        "am": "5+",
+        "traits": [
+            "Scarce",
+            "Sidearm",
+            "Melta"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Twin-linked heavy las carbine (Van Saar Arachni-rig)",
+        "rng_s": "15",
+        "rng_l": "30",
+        "acc_s": "+1",
+        "acc_l": "-",
+        "str": "4",
+        "ap": "-",
+        "dmg": "1",
+        "am": "4+",
+        "traits": [
+            "Plentiful",
+            "Rapid Fire (3)"
+        ],
+        "type": "Heavy"
+    },
+    {
+        "name": "Twin-linked heavy stubber (Cawdor Stig-Shambler)",
+        "rng_s": "20",
+        "rng_l": "40",
+        "acc_s": "-",
+        "acc_l": "-1",
+        "str": "4",
+        "ap": "-1",
+        "dmg": "2",
+        "am": "4+",
+        "traits": [
+            "Rapid Fire (3)",
+            "Unwieldy"
+        ],
+        "type": "Heavy"
+    },
+    {
+        "name": "Two-handed axe",
+        "rng_s": "-",
+        "rng_l": "E",
+        "acc_s": "-",
+        "acc_l": "-1",
+        "str": "S+2",
+        "ap": "-",
+        "dmg": "2",
+        "am": "-",
+        "traits": [
+            "Unwieldy"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Two-handed hammer",
+        "rng_s": "-",
+        "rng_l": "E",
+        "acc_s": "-",
+        "acc_l": "-1",
+        "str": "S+2",
+        "ap": "-",
+        "dmg": "1",
+        "am": "-",
+        "traits": [
+            "Unwieldy",
+            "Knockback"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Venomous bite (Van Saar Cyberarachnid)",
+        "rng_s": "-",
+        "rng_l": "E",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "-",
+        "ap": "-",
+        "dmg": "-",
+        "am": "-",
+        "traits": [
+            "Toxic"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Web gauntlet",
+        "rng_s": "-",
+        "rng_l": "E",
+        "acc_s": "-",
+        "acc_l": "+1",
+        "str": "3",
+        "ap": "-",
+        "dmg": "-",
+        "am": "-",
+        "traits": [
+            "Backstab",
+            "Web"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Web gun",
+        "rng_s": "-",
+        "rng_l": "T",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "5",
+        "ap": "-",
+        "dmg": "-",
+        "am": "5+",
+        "traits": [
+            "Silent",
+            "Template",
+            "Web"
+        ],
+        "type": "Special"
+    },
+    {
+        "name": "Web pistol",
+        "rng_s": "-",
+        "rng_l": "T",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "4",
+        "ap": "-",
+        "dmg": "1",
+        "am": "5+",
+        "traits": [
+            "Silent",
+            "Template",
+            "Web"
+        ],
+        "type": "Pistol"
+    },
+    {
+        "name": "Web projector (Van Saar Cyberachnid)",
+        "rng_s": "-",
+        "rng_l": "T",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "2",
+        "ap": "-",
+        "dmg": "1",
+        "am": "6+",
+        "traits": [
+            "Scarce",
+            "Template",
+            "Web"
+        ],
+        "type": "Pistol"
+    },
+    {
+        "name": "Grav pistol",
+        "rng_s": "6\"",
+        "rng_l": "12\"",
+        "acc_s": "+1",
+        "acc_l": "-",
+        "str": "*",
+        "ap": "(-1)",
+        "dmg": "2",
+        "am": "5+",
+        "traits": [
+            "Blast (3\")",
+            "Concussion",
+            "Graviton Pulse"
+        ],
+        "type": "Pistol"
+    },
+    {
+        "name": "Inferno pistol (Imperial)",
+        "rng_s": "6”",
+        "rng_l": "9”",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "8",
+        "ap": "-3",
+        "dmg": "2",
+        "am": "6+",
+        "traits": [
+            "Melta",
+            "Scarce"
+        ],
+        "type": "Pistol"
+    },
+    {
+        "name": "Shard (Corrupted)",
+        "rng_s": "-",
+        "rng_l": "Sx3",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "2",
+        "ap": "-2",
+        "dmg": "1",
+        "am": "4+",
+        "traits": [
+            "Blast (5”)",
+            "Cursed",
+            "Rending"
+        ],
+        "type": "Grenade"
+    }
+]

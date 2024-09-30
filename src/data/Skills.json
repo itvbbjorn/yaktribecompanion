@@ -1,0 +1,212 @@
+{
+    "skills": {
+        "Agility": [
+            {
+                "name": "Catfall",
+                "description": "When this fighter falls or jumps down, they are not Pinned and do not take any damage from falling."
+            },
+            {
+                "name": "Dodge",
+                "description": "If this fighter is hit by a ranged attack, they can make an Initiative check. If the check is passed, the hit is ignored."
+            },
+            {
+                "name": "Spring Up",
+                "description": "If this fighter is Pinned, they can make an Initiative check. If the check is passed, they can stand up for free."
+            },
+            {
+                "name": "Sprint",
+                "description": "When this fighter makes a Double Move, they can triple their Movement instead of doubling it."
+            },
+            {
+                "name": "Acrobat",
+                "description": "This fighter can move through enemy models as if they were not there."
+            },
+            {
+                "name": "Clamber",
+                "description": "This fighter can climb any distance vertically without making an Initiative check."
+            }
+        ],
+        "Brawn": [
+            {
+                "name": "Bulging Biceps",
+                "description": "This fighter can use Unwieldy weapons without the Unwieldy penalty."
+            },
+            {
+                "name": "Iron Jaw",
+                "description": "If this fighter is hit by an attack with the Melee trait, they can make a Toughness check. If the check is passed, the hit is ignored."
+            },
+            {
+                "name": "Headbutt",
+                "description": "If this fighter makes a successful hit in close combat, they can make an additional attack with the Headbutt trait."
+            },
+            {
+                "name": "Nerves of Steel",
+                "description": "When this fighter is hit by a ranged attack, they can make a Cool check. If the check is passed, they are not Pinned."
+            },
+            {
+                "name": "Unstoppable",
+                "description": "When this fighter makes a Recovery test, they can roll two dice and choose the result."
+            },
+            {
+                "name": "Juggernaut",
+                "description": "This fighter can make a free Move action when they are activated, even if they are Pinned."
+            }
+        ],
+        "Combat": [
+            {
+                "name": "Berserker",
+                "description": "This fighter can make an additional attack when they charge."
+            },
+            {
+                "name": "Combat Master",
+                "description": "This fighter does not suffer penalties for being outnumbered in close combat."
+            },
+            {
+                "name": "Counter-Charge",
+                "description": "If an enemy fighter charges this fighter, they can make a free Charge action against that enemy."
+            },
+            {
+                "name": "Feint",
+                "description": "When this fighter makes an attack in close combat, they can re-roll one of their attack dice."
+            },
+            {
+                "name": "Rain of Blows",
+                "description": "This fighter can make an additional attack when they make a Fight action."
+            },
+            {
+                "name": "Parry",
+                "description": "When this fighter is attacked in close combat, they can force the attacker to re-roll one successful hit."
+            }
+        ],
+        "Cunning": [
+            {
+                "name": "Ambush",
+                "description": "This fighter can set up an Ambush. When an enemy fighter moves within 6\", this fighter can make a free Shoot action."
+            },
+            {
+                "name": "Escape Artist",
+                "description": "This fighter can make a free Move action when they are activated, even if they are Engaged."
+            },
+            {
+                "name": "Infiltrate",
+                "description": "This fighter can be set up anywhere on the battlefield, more than 9\" away from any enemy fighters."
+            },
+            {
+                "name": "Overwatch",
+                "description": "This fighter can make a free Shoot action when an enemy fighter moves within their line of sight."
+            },
+            {
+                "name": "Sneak Attack",
+                "description": "This fighter can make a free Charge action when they are activated, even if they are not within range of an enemy fighter."
+            },
+            {
+                "name": "Trap Specialist",
+                "description": "This fighter can set up a trap. When an enemy fighter moves within 6\", the trap is triggered and the enemy fighter is Pinned."
+            }
+        ],
+        "Ferocity": [
+            {
+                "name": "Bull Charge",
+                "description": "When this fighter makes a Charge action, they can add D3\" to their Movement."
+            },
+            {
+                "name": "Fearsome",
+                "description": "Enemy fighters must pass a Cool check to make a Charge action against this fighter."
+            },
+            {
+                "name": "Killer Instinct",
+                "description": "This fighter can re-roll failed wound rolls in close combat."
+            },
+            {
+                "name": "True Grit",
+                "description": "When this fighter makes a Recovery test, they can roll two dice and choose the result."
+            },
+            {
+                "name": "Unstoppable",
+                "description": "When this fighter makes a Recovery test, they can roll two dice and choose the result."
+            },
+            {
+                "name": "Nerves of Steel",
+                "description": "When this fighter is hit by a ranged attack, they can make a Cool check. If the check is passed, they are not Pinned."
+            }
+        ],
+        "Leadership": [
+            {
+                "name": "Commanding Presence",
+                "description": "Friendly fighters within 6\" of this fighter can use this fighter’s Leadership characteristic instead of their own."
+            },
+            {
+                "name": "Inspiring Presence",
+                "description": "Friendly fighters within 6\" of this fighter can re-roll failed Cool checks."
+            },
+            {
+                "name": "Iron Will",
+                "description": "This fighter can re-roll failed Leadership checks."
+            },
+            {
+                "name": "Mentor",
+                "description": "When this fighter is activated, they can choose a friendly fighter within 6\". That fighter gains an additional XP."
+            },
+            {
+                "name": "Overseer",
+                "description": "This fighter can make a free Group Activation action when they are activated."
+            },
+            {
+                "name": "Tactician",
+                "description": "This fighter can make a free Tactics action when they are activated."
+            }
+        ],
+        "Shooting": [
+            {
+                "name": "Fast Shot",
+                "description": "This fighter can make an additional Shoot action when they are activated."
+            },
+            {
+                "name": "Gunfighter",
+                "description": "This fighter can make a Shoot action with a Pistol weapon, even if they are Engaged."
+            },
+            {
+                "name": "Hip Shooting",
+                "description": "This fighter can make a Shoot action after making a Move action."
+            },
+            {
+                "name": "Marksman",
+                "description": "This fighter can re-roll failed hit rolls when making a Shoot action."
+            },
+            {
+                "name": "Precision Shot",
+                "description": "This fighter can ignore the target’s cover when making a Shoot action."
+            },
+            {
+                "name": "Trick Shot",
+                "description": "This fighter can make a Shoot action with a -1 penalty to hit, but the attack gains the Rending trait."
+            }
+        ],
+        "Savant": [
+            {
+                "name": "Ballistics Expert",
+                "description": "This fighter can re-roll failed Ammo checks."
+            },
+            {
+                "name": "Fixer",
+                "description": "This fighter can make a free Trade action when they are activated."
+            },
+            {
+                "name": "Inventor",
+                "description": "When this fighter is activated, they can make an Intelligence check. If the check is passed, they invent a new piece of equipment."
+            },
+            {
+                "name": "Munitioneer",
+                "description": "Friendly fighters within 6\" of this fighter can re-roll failed Ammo checks."
+            },
+            {
+                "name": "Savvy Trader",
+                "description": "This fighter can make a free Trade action when they are activated."
+            },
+            {
+                "name": "Weaponsmith",
+                "description": "This fighter can make a free Repair action when they are activated."
+            }
+        ]
+    }
+}
