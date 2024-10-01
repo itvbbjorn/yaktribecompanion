@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
-import { Stack, Paper, CssBaseline, Slide, CircularProgress, Snackbar, Typography } from '@mui/material';
+import { Stack, Paper, CssBaseline, Slide, CircularProgress, Snackbar, Typography, Alert } from '@mui/material';
 import GangerCard from './GangerCard';
 import { Ganger } from './models/Ganger';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
@@ -56,6 +56,7 @@ function App() {
   };
   
   const fetchGangDataFromJson = () => {
+    setError(null);
     try {
       const data = JSON.parse(rawJsonInput);
       setGangData(data.gang.gangers);
@@ -77,6 +78,14 @@ function App() {
       <CssBaseline />
       <div className="App">
         <Stack spacing={2}>
+        {error && (
+          <Alert
+            severity='error'
+            onClose={() => setError(null)}
+          >
+            {error}
+          </Alert>
+        )}
           {gangData && (
             <Paper elevation={3} style={{ padding: '4px' }}>
               {showImage && gangImage ? <img src={gangImage} alt='gang' style={{ width: '100%' }} /> : null}
@@ -132,14 +141,7 @@ function App() {
             </Stack>
           </Paper>
         </Stack>
-        {error && (
-          <Snackbar
-            open={!!error}
-            message={error}
-            autoHideDuration={6000}
-            onClose={() => setError(null)}
-          />
-        )}
+        
       </div>
     </ThemeProvider>
   );
