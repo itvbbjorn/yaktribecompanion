@@ -22,6 +22,7 @@ function App() {
   const fetchGangData = async () => {
     try {
       const url = 'https://corsproxy.io/?' + encodeURIComponent(jsonInput);
+      // const url = jsonInput;
       const response = await fetch(url);
       if (!response.ok) {
         throw new Error('Network response was not ok');
@@ -72,7 +73,7 @@ function App() {
           <Paper elevation={3} style={{ padding: '4px', marginTop: '8px' }}>
             <Stack spacing={2}>
               <TextField
-                placeholder='Paste URL here'
+                placeholder='Paste yaktribe JSON URL here'
                 value={jsonInput}
                 onChange={(e) => setJsonInput(e.target.value)}
                 multiline
@@ -84,7 +85,7 @@ function App() {
                 color='primary'
                 onClick={fetchGangData}
               >
-                Fetch Data
+                yak me up daddy
               </Button>
             </Stack>
           </Paper>
