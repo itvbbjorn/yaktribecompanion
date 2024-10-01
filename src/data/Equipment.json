@@ -32,9 +32,9 @@
                     }
     },
     {
-        "Name":  "Flak",
+        "Name":  "Flak Armour",
         "Details":  {
-                        "Description":  "Flak Armour:"
+                        "Description":  "Flak Armour gives a 5+ save vs Blast and Template attacks and a 6+ save against all other attacks."
                     }
     },
     {
@@ -791,7 +791,7 @@
                     }
     },
     {
-        "Name":  "Infra-Sight (Pistols, Basic, Special and Heavy Weapons)â€",
+        "Name":  "Infra-Sight (Pistols, Basic, Special and Heavy Weapons)ï¿½",
         "Details":  {
                         "Description":  "40 Credits â€“ Rare (8)"
                     }
@@ -803,13 +803,13 @@
                     }
     },
     {
-        "Name":  "Mono-Sight (Basic, Special and Heavy Weapons)â€",
+        "Name":  "Mono-Sight (Basic, Special and Heavy Weapons)ï¿½",
         "Details":  {
                         "Description":  "35 Credits â€“ Rare (9)"
                     }
     },
     {
-        "Name":  "Psi-Amplifier (Melee Weapons)â€",
+        "Name":  "Psi-Amplifier (Melee Weapons)ï¿½",
         "Details":  {
                         "Description":  "75 Credits â€“ Rare (15)"
                     }
@@ -821,7 +821,7 @@
                     }
     },
     {
-        "Name":  "Telescopic Sight (Pistols, Basic and Special Weapons)â€",
+        "Name":  "Telescopic Sight (Pistols, Basic and Special Weapons)ï¿½",
         "Details":  {
                         "Description":  "25 Credits"
                     }

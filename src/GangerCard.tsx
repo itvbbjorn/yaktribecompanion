@@ -45,15 +45,13 @@ const iconMapping: { [key: string]: React.ElementType } = {
     Language
 };
 
-
-
 const GangerCard: React.FC<GangerCardProps> = ({ ganger, gangType }) => {
     const [gangerState, setGangerState] = useState<Ganger>({
         ...ganger,
         gameStatus: Array.isArray(ganger.gameStatus) ? ganger.gameStatus : [],
         newxp: ganger.xp
     });
-    const [weapons, setWeapons] = useState<{ [key: string]: Weapon }>({});
+    const [weapons, setWeapons] = useState<{ [key: string]: Weapon[] }>({});
     const [selectedTrait, setSelectedTrait] = useState<WeaponTrait | null>(null);
     const [selectedSkill, setSelectedSkill] = useState<Skill | null>(null);
     const [isTraitModalOpen, setIsTraitModalOpen] = useState(false);
@@ -68,18 +66,21 @@ const GangerCard: React.FC<GangerCardProps> = ({ ganger, gangType }) => {
     const [expanded, setExpanded] = useState<boolean>(false);
 
     useEffect(() => {
-        const weaponMap: { [key: string]: Weapon } = {};
+        const weaponMap: { [key: string]: Weapon[] } = {};
         weaponsData.forEach((weapon: Weapon) => {
-            weaponMap[weapon.name.toLowerCase().replace(/\*+$/, '')] = weapon;
+            const normalizedName = normalizeName(weapon.name);
+            if (!weaponMap[normalizedName]) {
+                weaponMap[normalizedName] = [];
+            }
+            weaponMap[normalizedName].push(weapon);
         });
 
         const timer = setTimeout(() => {
             setExpanded(true);
-        }, 4000); // Wait for 1 second before expanding the accordion
+        }, 4000); // Wait for 4 seconds before expanding the accordion
         setWeapons(weaponMap);
         setStatuses(statusesData);
         return () => clearTimeout(timer); // Cleanup the timer on component unmount
-
     }, []);
 
 
@@ -96,7 +97,19 @@ const GangerCard: React.FC<GangerCardProps> = ({ ganger, gangType }) => {
 
     }
 
-    const normalizeName = (name: string) => name.toLowerCase().replace(/\*+$/, '');
+    const normalizeName = (name: string): string => {
+        const variations: { [key: string]: string } = {
+            "armor": "armour",
+            "armour": "armor"
+        };
+
+        let normalized = name.toLowerCase().replace(/\*+$/, '');
+        Object.keys(variations).forEach(variation => {
+            normalized = normalized.replace(new RegExp(variation, 'g'), variations[variation]);
+        });
+
+        return normalized;
+    };
 
     const handleXpClick = () => {
         setIsXpDialogOpen(true);

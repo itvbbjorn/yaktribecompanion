@@ -1,5 +1,6 @@
 export interface Weapon {
     name: string;
+    profileName?: string;
     rng_s: string;
     rng_l: string;
     acc_s: string;

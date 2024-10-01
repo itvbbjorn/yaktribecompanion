@@ -262,7 +262,8 @@
         "type": "Close Combat"
     },
     {
-        "name": "Cawdor heavy crossbow - frag",
+        "name": "Heavy Crossbow",
+        "profileName": "Frag",
         "rng_s": "15",
         "rng_l": "30",
         "acc_s": "-",
@@ -279,7 +280,8 @@
         "type": "Heavy"
     },
     {
-        "name": "Cawdor heavy crossbow - krak",
+        "name": "Heavy Crossbow",
+        "profileName": "Krak",
         "rng_s": "15",
         "rng_l": "30",
         "acc_s": "-",
@@ -310,7 +312,8 @@
         "type": "Close Combat"
     },
     {
-        "name": "Cawdor Polearm/Autogun (Melee)",
+        "name": "Polearm/Autogun",
+        "profileName": "Melee",
         "rng_s": "E",
         "rng_l": "2",
         "acc_s": "-1",
@@ -325,7 +328,8 @@
         "type": "Basic"
     },
     {
-        "name": "Cawdor Polearm/Autogun (Ranged)",
+        "name": "Polearm/Autogun",
+        "profileName": "Ranged",
         "rng_s": "8",
         "rng_l": "24",
         "acc_s": "+1",
@@ -340,7 +344,8 @@
         "type": "Basic"
     },
     {
-        "name": "Cawdor Polearm/Blunderbuss (Melee)",
+        "name": "Polearm/Blunderbuss",
+        "profileName": "Melee",
         "rng_s": "E",
         "rng_l": "2",
         "acc_s": "-1",
@@ -355,7 +360,8 @@
         "type": "Basic"
     },
     {
-        "name": "Cawdor Polearm/Blunderbuss (Ranged) - grape shot",
+        "name": "Polearm/Blunderbuss",
+        "profileName": "Grape shot",
         "rng_s": "-",
         "rng_l": "T",
         "acc_s": "-",
@@ -371,7 +377,8 @@
         "type": "Basic"
     },
     {
-        "name": "Cawdor Polearm/Blunderbuss (Ranged) - purgation shot",
+        "name": "Polearm/Blunderbuss",
+        "profileName": "Purgation shot",
         "rng_s": "-",
         "rng_l": "T",
         "acc_s": "-",
@@ -387,7 +394,8 @@
         "type": "Basic"
     },
     {
-        "name": "Cawdor Polearm/Blunderbuss (Ranged) Emperor’s Wrath rounds",
+        "name": "Polearm/Blunderbuss",
+        "profileName": "Emperor’s Wrath rounds",
         "rng_s": "8",
         "rng_l": "12",
         "acc_s": "-",
@@ -467,7 +475,7 @@
         "type": "Special"
     },
     {
-        "name": "Choke gas grenades",
+        "name": "Choke grenade",
         "rng_s": "Sx3",
         "rng_l": "-",
         "acc_s": "-",
@@ -1168,6 +1176,61 @@
         "type": "Heavy"
     },
     {
+        "name": "Eviscerator",
+        "profileName": "Melee",
+        "rng_s": "E",
+        "rng_l": "1",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "S+1",
+        "ap": "-1",
+        "dmg": "1",
+        "am": "6+",
+        "traits": [
+            "Melee",
+            "Sever",
+            "Shred",
+            "Unwieldy",
+            "Versatile"
+        ],
+        "type": "Close Combat"
+    },
+    {
+        "name": "Eviscerator",
+        "profileName": "Ranged",
+        "rng_s": "-",
+        "rng_l": "T",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "3",
+        "ap": "-1",
+        "dmg": "1",
+        "am": "5+",
+        "traits": [
+            "Blaze",
+            "Scarce",
+            "Template"
+        ],
+        "type": "Basic"
+    },
+    {
+        "name": "Exterminator",
+        "rng_s": "-",
+        "rng_l": "T",
+        "acc_s": "-",
+        "acc_l": "-",
+        "str": "3",
+        "ap": "-",
+        "dmg": "1",
+        "am": "*",
+        "traits": [
+            "Blaze",
+            "Single Shot",
+            "Template"
+        ],
+        "type": "Basic"
+    },
+    {
         "name": "Heavy chain cleaver",
         "rng_s": "-",
         "rng_l": "E",
@@ -1292,7 +1355,7 @@
         "type": "Close Combat"
     },
     {
-        "name": "Incendiary charges",
+        "name": "Incendiary charge",
         "rng_s": "Sx3",
         "rng_l": "-",
         "acc_s": "-",
@@ -1309,7 +1372,7 @@
         "type": "Grenade"
     },
     {
-        "name": "Krak grenades",
+        "name": "Krak grenade",
         "rng_s": "Sx3",
         "rng_l": "-",
         "acc_s": "-1",
@@ -1728,7 +1791,8 @@
         "type": "Grenade"
     },
     {
-        "name": "Plasma cannon - low",
+        "name": "Plasma cannon",
+        "profileName": "Low",
         "rng_s": "18",
         "rng_l": "36",
         "acc_s": "+1",
@@ -1745,7 +1809,8 @@
         "type": "Heavy"
     },
     {
-        "name": "Plasma cannon - maximal",
+        "name": "Plasma cannon",
+        "profileName": "Max",
         "rng_s": "18",
         "rng_l": "36",
         "acc_s": "+1",
@@ -1760,7 +1825,8 @@
         "type": "Heavy"
     },
     {
-        "name": "Plasma gun - Low",
+        "name": "Plasma gun",
+        "profileName": "Low",
         "rng_s": "12",
         "rng_l": "24",
         "acc_s": "+2",
@@ -1776,7 +1842,8 @@
         "type": "Special"
     },
     {
-        "name": "Plasma gun - Maximal",
+        "name": "Plasma gun",
+        "profileName": "Max",
         "rng_s": "12",
         "rng_l": "24",
         "acc_s": "+1",
@@ -1792,7 +1859,8 @@
         "type": "Special"
     },
     {
-        "name": "Plasma Pistol - low",
+        "name": "Plasma Pistol",
+        "profileName": "Low",
         "rng_s": "6",
         "rng_l": "12",
         "acc_s": "+2",
@@ -1808,7 +1876,8 @@
         "type": "Pistol"
     },
     {
-        "name": "Plasma Pistol - maximal",
+        "name": "Plasma Pistol",
+        "profileName": "Max",
         "rng_s": "6",
         "rng_l": "12",
         "acc_s": "+1",
