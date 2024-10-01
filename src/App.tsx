@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
-import { Stack, Paper, CssBaseline, Slide } from '@mui/material';
+import { Stack, Paper, CssBaseline, Slide, CircularProgress, Snackbar, Typography } from '@mui/material';
 import GangerCard from './GangerCard';
 import { Ganger } from './models/Ganger';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
@@ -13,38 +13,62 @@ const darkTheme = createTheme({
 });
 
 function App() {
-  const [jsonInput, setJsonInput] = useState('');
+  const [jsonUrlInput, setJsonInput] = useState('');
+  const [rawJsonInput, setRawJsonInput] = useState('')
   const [gangData, setGangData] = useState<Ganger[] | null>(null);
   const [gangType, setGangType] = useState<string>('');
   const [gangImage, setGangImage] = useState<string | null>(null);
   const [showImage, setShowImage] = useState<boolean>(false);
+  const [error, setError] = useState<string | null>(null);
+  const [loading, setLoading] = useState<boolean>(false);
 
   const fetchGangData = async () => {
+    setLoading(true);
+    setError(null); // Reset any previous error
     try {
-      // const url = 'https://thingproxy.freeboard.io/fetch/' + jsonInput;
-      const url = 'https://corsproxy.io/?' + encodeURIComponent(jsonInput);
-      // const url = jsonInput;
+      const url = 'https://corsproxy.io/?' + encodeURIComponent(jsonUrlInput);
       const response = await fetch(url);
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }
       const data = await response.json();
-      console.log('Fetched data:', data); // Debugging log
       setGangData(data.gang.gangers);
       setGangType(data.gang.gang_type);
       setGangImage(data.gang.gang_image);
-      console.log('Updated gangData state:', data.gang.gangers); // Debugging log
-
-      // Start the timer after setting the gangImage
+  
       if (data.gang.gang_image) {
         const timer = setTimeout(() => {
           setShowImage(true);
-        }, 4000); // Wait for 4000ms (4 seconds)
-
-        return () => clearTimeout(timer); // Cleanup the timer on component unmount
+        }, 4000);
+        return () => clearTimeout(timer);
       }
-    } catch (error) {
-      console.error('Error fetching JSON:', error);
+    } catch (error: unknown) { // Explicitly typing error as unknown
+      if (error instanceof Error) {
+        console.error('Error fetching JSON:', error);
+        setError(error.message); // Set error message to state
+      } else {
+        console.error('Unknown error:', error);
+        setError('An unknown error occurred'); // Fallback for unknown errors
+      }
+    } finally {
+      setLoading(false); // Stop loading state
+    }
+  };
+  
+  const fetchGangDataFromJson = () => {
+    try {
+      const data = JSON.parse(rawJsonInput);
+      setGangData(data.gang.gangers);
+      setGangType(data.gang.gang_type);
+      setGangImage(data.gang.gang_image);
+    } catch (error: unknown) { // Explicitly typing error as unknown
+      if (error instanceof Error) {
+        console.error('Error parsing JSON:', error);
+        setError('Invalid JSON input'); // Set error message for invalid JSON
+      } else {
+        console.error('Unknown error while parsing JSON:', error);
+        setError('An unknown error occurred'); // Fallback for unknown errors
+      }
     }
   };
 
@@ -54,7 +78,7 @@ function App() {
       <div className="App">
         <Stack spacing={2}>
           {gangData && (
-            <Paper elevation={3} style={{ padding: '4px' }} >
+            <Paper elevation={3} style={{ padding: '4px' }}>
               {showImage && gangImage ? <img src={gangImage} alt='gang' style={{ width: '100%' }} /> : null}
               {gangData.map((ganger: Ganger, index: number) => (
                 <Slide
@@ -74,11 +98,28 @@ function App() {
           <Paper elevation={3} style={{ padding: '4px', marginTop: '8px' }}>
             <Stack spacing={2}>
               <TextField
-                placeholder='Paste yaktribe JSON URL here'
-                value={jsonInput}
-                onChange={(e) => setJsonInput(e.target.value)}
+                placeholder='Paste yaktribe gang JSON here'
+                value={rawJsonInput}
+                onChange={(e) => setRawJsonInput(e.target.value)}
                 multiline
-                rows={2}
+                rows={4}
+                variant='outlined'
+              />
+              <Button
+                variant='contained'
+                color='primary'
+                onClick={fetchGangDataFromJson}
+              >
+                do it
+              </Button>
+              <Typography variant='caption' color='warning'>
+                WARNING: Pasting the Url may result in outdated gang information.
+              </Typography>
+              <TextField
+                placeholder='Paste yaktribe JSON URL here'
+                value={jsonUrlInput}
+                onChange={(e) => setJsonInput(e.target.value)}
+                rows={1}
                 variant="outlined"
               />
               <Button
@@ -86,11 +127,19 @@ function App() {
                 color='primary'
                 onClick={fetchGangData}
               >
-                yak me up daddy
+                { loading? <CircularProgress></CircularProgress> : 'yak me up daddy'}
               </Button>
             </Stack>
           </Paper>
         </Stack>
+        {error && (
+          <Snackbar
+            open={!!error}
+            message={error}
+            autoHideDuration={6000}
+            onClose={() => setError(null)}
+          />
+        )}
       </div>
     </ThemeProvider>
   );
