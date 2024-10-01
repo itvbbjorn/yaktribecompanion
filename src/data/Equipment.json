@@ -1,0 +1,883 @@
+[
+    {
+        "Name":  "Ablative Overlay",
+        "Details":  {
+                        "Credits":  20,
+                        "Rarity":  "Common",
+                        "Description":  " Sometimes, the best way to improve a suit of armour is to add even more armour over the top. An ablative overlay is a layer of armour that can be worn in addition to another suit of armour, or can be worn on its own. It can range from sophisticated gel coatings and reactive plates, to more primitive furs quilted with ballistic cloth and fragments from ruined armour pieces."
+                    }
+    },
+    {
+        "Name":  "Archaeo-Carapace",
+        "Details":  {
+                        "Description":  "120 Credits – Rare (12) An ancient device from the Dark Age of Technology, the Archaeo-carapace is a piston-driven rig that grafts itself to the user. It offers impressive protection, but at the same time slowly begins to take over the wearer, until there is little distinction between them and the machine."
+                    }
+    },
+    {
+        "Name":  "Armourweave",
+        "Details":  {
+                        "Description":  "20 Credits – Illegal (9) A product of xenos science, the armourweave suit combines psycho-reactive plastics and kinetic bafflers to deaden blows. Armourweave is also practically impossible to tear or cut, meaning even against the most powerful attacks it will offer some measure of protection."
+                    }
+    },
+    {
+        "Name":  "Carapace",
+        "Details":  {
+                        "Description":  "Heavy:"
+                    }
+    },
+    {
+        "Name":  "Ceramite Shield",
+        "Details":  {
+                        "Description":  "40 Credits – Rare (8) Ceramite shields are made from scavenged armoured plating destined for the military vehicles of the Imperium. As much mobile cover as personal protection, they are lugged into battle by burly gangers who don\u0027t mind the weight compared to the benefits the shield affords."
+                    }
+    },
+    {
+        "Name":  "Flak",
+        "Details":  {
+                        "Description":  "Flak Armour:"
+                    }
+    },
+    {
+        "Name":  "Gutterforged Cloak",
+        "Details":  {
+                        "Credits":  15,
+                        "Rarity":  "Common",
+                        "Description":  " Made from fragments of ruined armour, a Gutterforged cloak provides protection at a very modest price. Common among badzones settlers, the cloak is also designed to offer some measure of defence against the hazards of the underhive or ash wastes."
+                    }
+    },
+    {
+        "Name":  "Hazard Suit",
+        "Details":  {
+                        "Description":  "10 Credits – Rare (10) The ash wastes are a hostile place, their dunes frequently toxic or corrosive, and strong winds whip up regular ash storms capable of blasting any exposed skin raw in minutes. Consequently, those such as ash crust miners and the poor wretches who maintain a hive’s outer armoured skin frequently wear heavy suits of rubberised canvas with vulcanised plates that protect them from the dangers of their working environment."
+                    }
+    },
+    {
+        "Name":  "Mantle Malifica",
+        "Details":  {
+                        "Description":  "75 Credits – Illegal (13) Constructed from pieces of gore-forged metal, a Mantle Malifica incorporates profane icons and Warp-infused materials to protect its wearer from harm. Unfortunately, wearing such a tainted garment will slowly erode the mind and soul of all but the most strong-willed – or those already insane."
+                    }
+    },
+    {
+        "Name":  "Mesh Armour",
+        "Details":  {
+                        "Credits":  15,
+                        "Rarity":  "Common",
+                        "Description":  " Constructed from tiny metal rings linked together, mesh armour offers more protection than flak without sacrificing any of the wearer\u0027s mobility. Worn in large quantities however, it can become extremely heavy."
+                    }
+    },
+    {
+        "Name":  "Reflec Shroud",
+        "Details":  {
+                        "Description":  "30 Credits – Rare (8) Created from layers of reflective metals, a reflec shroud provides an effective ward against energy weapons."
+                    }
+    },
+    {
+        "Name":  "Scrap Shield",
+        "Details":  {
+                        "Credits":  15,
+                        "Rarity":  "Common",
+                        "Description":  " Sometimes, fighters fashion crude shields from bits of barricades or simply panels prised from tunnel walls. These are then painted in gang colours and affixed to other suits of armour, either strapped to an arm or mounted over a shoulder."
+                    }
+    },
+    {
+        "Name":  "Armoured Bodyglove",
+        "Details":  {
+                        "Description":  "Van Saar only"
+                    }
+    },
+    {
+        "Name":  "Furnace Plates",
+        "Details":  {
+                        "Description":  "Goliath and Slave Ogryns only"
+                    }
+    },
+    {
+        "Name":  "Hardened Flak Armour",
+        "Details":  {
+                        "Description":  "[The Book of Ruin: Trading Post Appendix](https://www.necroraw.ru/docs/trading-post/book-of-ruin-trading-post-appendix) only, 20 Credits – Rare (10)"
+                    }
+    },
+    {
+        "Name":  "Layered Flak Armour",
+        "Details":  {
+                        "Description":  "[The Book of Ruin: Trading Post Appendix](https://www.necroraw.ru/docs/trading-post/book-of-ruin-trading-post-appendix) only, 20 Credits – Rare (8)"
+                    }
+    },
+    {
+        "Name":  "Hardened Layered Flak Armour",
+        "Details":  {
+                        "Description":  "[The Book of Ruin: Trading Post Appendix](https://www.necroraw.ru/docs/trading-post/book-of-ruin-trading-post-appendix) only, 35 Credits – Rare (11)"
+                    }
+    },
+    {
+        "Name":  "Incombustible Hauberk",
+        "Details":  {
+                        "Description":  "Redemptionists only"
+                    }
+    },
+    {
+        "Name":  "Plate Mail",
+        "Details":  {
+                        "Description":  "Corpse Grinder Cult only"
+                    }
+    },
+    {
+        "Name":  "Conversion Field",
+        "Details":  {
+                        "Description":  "60 Credits – Rare (11) A conversion field works by transforming the kinetic energy of an attack into light energy, absorbing the impact in a blinding flash."
+                    }
+    },
+    {
+        "Name":  "Displacer Field",
+        "Details":  {
+                        "Description":  "70 Credits – Rare (12) A displacer field reacts to the energy of an impact by teleporting the wearer a safe distance away. The harder the impact, the further the wearer will be moved."
+                    }
+    },
+    {
+        "Name":  "Refractor Field",
+        "Details":  {
+                        "Description":  "50 Credits – Rare (10) A refractor field bends the energy of an attack around the wearer, harmlessly distributing it over a large area and robbing the attack of its lethal force."
+                    }
+    },
+    {
+        "Name":  "Lobo Chip",
+        "Details":  {
+                        "Description":  "Improved:"
+                    }
+    },
+    {
+        "Name":  "Cortex-Cogitator",
+        "Details":  {
+                        "Description":  "Improved:"
+                    }
+    },
+    {
+        "Name":  "Bionic Eye",
+        "Details":  {
+                        "Description":  "Mundane:"
+                    }
+    },
+    {
+        "Name":  "Bionic Arm",
+        "Details":  {
+                        "Description":  "Mundane:"
+                    }
+    },
+    {
+        "Name":  "Bionic Leg",
+        "Details":  {
+                        "Description":  "Mundane:"
+                    }
+    },
+    {
+        "Name":  "Skeletal Enhancers",
+        "Details":  {
+                        "Description":  "Mundane:"
+                    }
+    },
+    {
+        "Name":  "Aortic Supercharger",
+        "Details":  {
+                        "Description":  "Mundane:"
+                    }
+    },
+    {
+        "Name":  "Ammo Cache",
+        "Details":  {
+                        "Description":  "60 Credits – Rare (8)"
+                    }
+    },
+    {
+        "Name":  "Booby Traps (Frag, Gas \u0026 Melta)",
+        "Details":  {
+                        "Description":  "Melta – 50 Credits – Rare (10)"
+                    }
+    },
+    {
+        "Name":  "Isotropic Fuel Rod",
+        "Details":  {
+                        "Description":  "60 Credits – Rare (10)"
+                    }
+    },
+    {
+        "Name":  "Mung Vase",
+        "Details":  {
+                        "Description":  "2D6x10 Credits – Rare (12) Mung vases are extraordinarily rare collectors objects. Few hivers know where the exquisite vases originate, only that they can be worth astronomical sums of money to the right people. This knowledge is widespread enough that over the centuries, Necromunda has become flooded with millions of fake Mung vases, ranging from crudely fashioned knock-offs that wouldn\u0027t fool a blind sump-farmer, to exceptional facsimiles that are works of art in their own right."
+                    }
+    },
+    {
+        "Name":  "# Mung Vase Table",
+        "Details":  {
+
+                    }
+    },
+    {
+        "Name":  "Corpse Grinder Cult Icon",
+        "Details":  {
+                        "Description":  "Enrage:"
+                    }
+    },
+    {
+        "Name":  "Archaeotech Device",
+        "Details":  {
+                        "Description":  "120 Credits – Rare (13)"
+                    }
+    },
+    {
+        "Name":  "# Archaeotech Device Table",
+        "Details":  {
+
+                    }
+    },
+    {
+        "Name":  "Armoured Undersuit",
+        "Details":  {
+                        "Description":  "25 Credits – Rare (7)"
+                    }
+    },
+    {
+        "Name":  "Bio-Booster",
+        "Details":  {
+                        "Description":  "35 Credits – Rare (8)"
+                    }
+    },
+    {
+        "Name":  "Bio-Scanner",
+        "Details":  {
+                        "Description":  "30 Credits – Rare (8)"
+                    }
+    },
+    {
+        "Name":  "Blind Snake Pouch",
+        "Details":  {
+                        "Description":  "60 Credits – Rare (12)"
+                    }
+    },
+    {
+        "Name":  "Cameleoline Cloak",
+        "Details":  {
+                        "Description":  "35 Credits – Rare (9)"
+                    }
+    },
+    {
+        "Name":  "Chem-Synth",
+        "Details":  {
+                        "Description":  "15 Credits – Rare (12)"
+                    }
+    },
+    {
+        "Name":  "Chrono-Crystal",
+        "Details":  {
+                        "Description":  "500 Credits – Illegal (14)"
+                    }
+    },
+    {
+        "Name":  "Cred Sniffer",
+        "Details":  {
+                        "Description":  "35 Credits – Rare (8)"
+                    }
+    },
+    {
+        "Name":  "Cult Icon",
+        "Details":  {
+
+                    }
+    },
+    {
+        "Name":  "Data-Thief",
+        "Details":  {
+                        "Description":  "35 Credits – Illegal (10)"
+                    }
+    },
+    {
+        "Name":  "Dome Runner Map / Ratskin Map",
+        "Details":  {
+                        "Description":  "100 Credits – Rare (9)"
+                    }
+    },
+    {
+        "Name":  "# Dome Runner Map Table",
+        "Details":  {
+
+                    }
+    },
+    {
+        "Name":  "Drop Rig",
+        "Details":  {
+                        "Description":  "Descend (Basic):"
+                    }
+    },
+    {
+        "Name":  "Falsehood",
+        "Details":  {
+                        "Description":  "40 Credits – Rare (9)"
+                    }
+    },
+    {
+        "Name":  "Filter Plugs",
+        "Details":  {
+                        "Rarity":  "Common",
+                        "Credits":  10
+                    }
+    },
+    {
+        "Name":  "Frenzon Collar",
+        "Details":  {
+                        "Description":  "30 Credits – Rare (9) A method of control, the Frenzon collar is usually found clamped around the necks of unwilling penal troopers, where its cocktail of combat drugs drives them into battle at the behest of their masters. Underhive gangers sometimes wear these collars willingly into combat, or as part of a dare."
+                    }
+    },
+    {
+        "Name":  "Forged Guilder Seal",
+        "Details":  {
+                        "Description":  "55 Credits – Illegal (11)"
+                    }
+    },
+    {
+        "Name":  "Grapnel Launcher",
+        "Details":  {
+                        "Description":  "Grapnel (Double):"
+                    }
+    },
+    {
+        "Name":  "Grav-Chute",
+        "Details":  {
+                        "Description":  "50 Credits – Rare (10)"
+                    }
+    },
+    {
+        "Name":  "Guilder Cartograph",
+        "Details":  {
+                        "Description":  "70 Credits – Rare (11) Guilder cartographs are detailed maps of the trails between settlements, showing local hazards as well as safe campsites. Up-to-date cartographs are much sought after by travellers, as they mean the difference between reaching their destination alive or ending up as one more corpse in the underhive."
+                    }
+    },
+    {
+        "Name":  "Halo Device",
+        "Details":  {
+                        "Description":  "250 Credits – Illegal (14)"
+                    }
+    },
+    {
+        "Name":  "Harrier-Skulls",
+        "Details":  {
+                        "Description":  "40 Credits – Rare (8)"
+                    }
+    },
+    {
+        "Name":  "Hexagrammic Fetish",
+        "Details":  {
+                        "Description":  "35 Credits – Rare (10)"
+                    }
+    },
+    {
+        "Name":  "Holochromatic Field",
+        "Details":  {
+                        "Description":  "100 Credits – Illegal (9)"
+                    }
+    },
+    {
+        "Name":  "Industrial Respirator",
+        "Details":  {
+                        "Description":  "30 Credits – Rare (7)"
+                    }
+    },
+    {
+        "Name":  "Lho Sticks",
+        "Details":  {
+                        "Description":  "5 Credits"
+                    }
+    },
+    {
+        "Name":  "Lock-Punch",
+        "Details":  {
+                        "Description":  "10 Credits"
+                    }
+    },
+    {
+        "Name":  "Magnacles",
+        "Details":  {
+                        "Description":  "20 Credits"
+                    }
+    },
+    {
+        "Name":  "Malefic Artefact",
+        "Details":  {
+                        "Description":  "90 Credits – Illegal (13)"
+                    }
+    },
+    {
+        "Name":  "# Malefic Artefacts Table",
+        "Details":  {
+
+                    }
+    },
+    {
+        "Name":  "Medicae Kit",
+        "Details":  {
+                        "Description":  "30 Credits – Rare (9)"
+                    }
+    },
+    {
+        "Name":  "Mnemonic Inload Spike",
+        "Details":  {
+                        "Description":  "100 Credits – Illegal (12)"
+                    }
+    },
+    {
+        "Name":  "Photo-Goggles",
+        "Details":  {
+                        "Description":  "35 Credits – Rare (9)"
+                    }
+    },
+    {
+        "Name":  "Photo-Lumen",
+        "Details":  {
+                        "Description":  "20 Credits"
+                    }
+    },
+    {
+        "Name":  "Psi-Grub",
+        "Details":  {
+                        "Description":  "50 Credits – Illegal (12)"
+                    }
+    },
+    {
+        "Name":  "Respirator",
+        "Details":  {
+                        "Rarity":  "Common",
+                        "Credits":  15
+                    }
+    },
+    {
+        "Name":  "Sanctioning Writ",
+        "Details":  {
+                        "Description":  "25 Credits – Illegal (10)"
+                    }
+    },
+    {
+        "Name":  "Second Best",
+        "Details":  {
+                        "Description":  "15 Credits – Common"
+                    }
+    },
+    {
+        "Name":  "# Second Best Intoxication Table",
+        "Details":  {
+
+                    }
+    },
+    {
+        "Name":  "Servo Harness",
+        "Details":  {
+                        "Description":  "Full:"
+                    }
+    },
+    {
+        "Name":  "Skinblade",
+        "Details":  {
+                        "Description":  "10 Credits"
+                    }
+    },
+    {
+        "Name":  "Stimm-Slug Stash",
+        "Details":  {
+                        "Description":  "30 Credits – Rare (7)"
+                    }
+    },
+    {
+        "Name":  "Strip Kit",
+        "Details":  {
+                        "Description":  "15 Credits"
+                    }
+    },
+    {
+        "Name":  "Suspensor Harness",
+        "Details":  {
+                        "Description":  "40 Credits – Rare (9) Underhivers are nothing if not resourceful when it comes to repurposing gear for their needs. The suspensor harness is such a device, a collection of belts and components from a heavy weapon suspensor array allowing the wearer to carry excessive amounts of equipment. While Guilder slaves and Badzones prospectors might use them to carry heavy loads, gangers mainly use them to sling extra weapons on their back."
+                    }
+    },
+    {
+        "Name":  "Threadneedle Worms",
+        "Details":  {
+                        "Description":  "45 Credits – Illegal (13)"
+                    }
+    },
+    {
+        "Name":  "# Threadneedle Worms Table",
+        "Details":  {
+
+                    }
+    },
+    {
+        "Name":  "Web Solvent",
+        "Details":  {
+                        "Description":  "25 Credits – Rare (8)"
+                    }
+    },
+    {
+        "Name":  "Wild Snake",
+        "Details":  {
+                        "Rarity":  "Common",
+                        "Credits":  30
+                    }
+    },
+    {
+        "Name":  "# Wild Snake Intoxication Table",
+        "Details":  {
+
+                    }
+    },
+    {
+        "Name":  "Xenoculum",
+        "Details":  {
+                        "Description":  "80 Credits – Illegal (12)"
+                    }
+    },
+    {
+        "Name":  "# Xenoculum Table",
+        "Details":  {
+
+                    }
+    },
+    {
+        "Name":  "Arachni-rig Jump Boosters",
+        "Details":  {
+                        "Description":  "Van Saar only"
+                    }
+    },
+    {
+        "Name":  "Ash Waste Grav-cutter",
+        "Details":  {
+                        "Description":  "Auto-gyro Stabilisation:"
+                    }
+    },
+    {
+        "Name":  "Ash Cloak",
+        "Details":  {
+                        "Description":  "Ash Waste Nomads only"
+                    }
+    },
+    {
+        "Name":  "Augurspex",
+        "Details":  {
+                        "Description":  "Van Saar Augurtek only"
+                    }
+    },
+    {
+        "Name":  "Book of the Redemption",
+        "Details":  {
+                        "Description":  "Words of Wrath (Basic):"
+                    }
+    },
+    {
+        "Name":  "Bomb Delivery Rats",
+        "Details":  {
+                        "Description":  "Cawdor only, 65 Credits"
+                    }
+    },
+    {
+        "Name":  "Camoelean Elixir",
+        "Details":  {
+                        "Description":  "[Spire Black Market](https://www.necroraw.ru/docs/arbitrator-tools/apocrypha-optional-rules/blood-in-the-spire#spire-black-market) only, 75 Credits – Illegal (10) Crafted by the best Escher chymists, the camoelean elixir combines with the drinker\u0027s epidermal layers to create an almost perfect camouflage, especially if the user remains perfectly still or is not encumbered by heavy weapons or armour."
+                    }
+    },
+    {
+        "Name":  "Draconic Scales",
+        "Details":  {
+                        "Description":  "[Spire Black Market](https://www.necroraw.ru/docs/arbitrator-tools/apocrypha-optional-rules/blood-in-the-spire#spire-black-market) only, 250 Credits – Illegal (14) A rare example of conversion field technology, draconic scales incorporate dozens of tiny energy fields layered within a dermal body suit. Often worn under armour, it is proof against most weapons, negating their penetrative powers."
+                    }
+    },
+    {
+        "Name":  "Grav-Cutter",
+        "Details":  {
+                        "Description":  "Van Saar only"
+                    }
+    },
+    {
+        "Name":  "# Fly By Attacks",
+        "Details":  {
+                        "Description":  "Hit \u0026 Run (Basic):"
+                    }
+    },
+    {
+        "Name":  "Jump Booster",
+        "Details":  {
+                        "Description":  "Orlock only"
+                    }
+    },
+    {
+        "Name":  "# Hazardous Equipment",
+        "Details":  {
+
+                    }
+    },
+    {
+        "Name":  "Mirror Aegis",
+        "Details":  {
+                        "Description":  "[Spire Black Market](https://www.necroraw.ru/docs/arbitrator-tools/apocrypha-optional-rules/blood-in-the-spire#spire-black-market) only, 125 Credits – Illegal (12) A mirror aegis is typical of the noble trickery common to the spire. The field projects an image of the wearer to a nearby location, drawing away enemies or getting them to turn their backs before the wearer strikes."
+                    }
+    },
+    {
+        "Name":  "Proximity Auspex",
+        "Details":  {
+                        "Description":  "Scan For Threats (Basic):"
+                    }
+    },
+    {
+        "Name":  "Psychofamile Pheromone",
+        "Details":  {
+                        "Description":  "[Spire Black Market](https://www.necroraw.ru/docs/arbitrator-tools/apocrypha-optional-rules/blood-in-the-spire#spire-black-market) only, 150 Credits – Illegal (12) Perfumes, incense and aromas fill the gilded halls of the spire, many crafted to sway the emotions or minds of those who smell them. Psychofamile pheromones work to make those close to the wearer see them as a loved one – usually just before the wearer drives a knife into their chest."
+                    }
+    },
+    {
+        "Name":  "Psychomancer\u0027s Harness",
+        "Details":  {
+                        "Description":  "Delaque only"
+                    }
+    },
+    {
+        "Name":  "Pyromantic Mantle",
+        "Details":  {
+                        "Description":  "Redemptionists only"
+                    }
+    },
+    {
+        "Name":  "Radcounter",
+        "Details":  {
+                        "Description":  "50 Credits – Rare (9) Radiation is a common hazard in the underhive. While a few hard rads are just part of life in and among the Badzones, when your hair starts falling out and your skin starts to glow, odds are you\u0027ve wandered too far into the wilds. Underhivers use a variety of means to detect radiation, from homemade auspexes to sniffer slugs, collectively referred to as radcounters."
+                    }
+    },
+    {
+        "Name":  "Ridge Walker",
+        "Details":  {
+                        "Description":  "House Cawdor only"
+                    }
+    },
+    {
+        "Name":  "Refraction Cloak",
+        "Details":  {
+                        "Description":  "Van Saar Gunntek only"
+                    }
+    },
+    {
+        "Name":  "Rocket Pack",
+        "Details":  {
+                        "Description":  "Ash Waste Nomads only"
+                    }
+    },
+    {
+        "Name":  "Servo-medicae",
+        "Details":  {
+                        "Description":  "Medicate (Basic):"
+                    }
+    },
+    {
+        "Name":  "Sky Mantle",
+        "Details":  {
+                        "Description":  "Hide in the Wastes (Double):"
+                    }
+    },
+    {
+        "Name":  "Vox Array",
+        "Details":  {
+                        "Description":  "Van Saar Augurtek only"
+                    }
+    },
+    {
+        "Name":  "Frenzon",
+        "Details":  {
+                        "Description":  "20 Credits – Rare (9)"
+                    }
+    },
+    {
+        "Name":  "# Side Effects",
+        "Details":  {
+
+                    }
+    },
+    {
+        "Name":  "Ghast",
+        "Details":  {
+                        "Description":  "30 Credits – Illegal (9)"
+                    }
+    },
+    {
+        "Name":  "# Side Effects",
+        "Details":  {
+
+                    }
+    },
+    {
+        "Name":  "Icrotic Slime",
+        "Details":  {
+                        "Description":  "35 Credits – Rare (10)"
+                    }
+    },
+    {
+        "Name":  "# Side Effects",
+        "Details":  {
+
+                    }
+    },
+    {
+        "Name":  "Kalma",
+        "Details":  {
+                        "Description":  "15 Credits"
+                    }
+    },
+    {
+        "Name":  "# Side Effects",
+        "Details":  {
+
+                    }
+    },
+    {
+        "Name":  "Obscura",
+        "Details":  {
+                        "Description":  "30 Credits – Illegal (8)"
+                    }
+    },
+    {
+        "Name":  "# Side Effects",
+        "Details":  {
+
+                    }
+    },
+    {
+        "Name":  "\u0027Slaught",
+        "Details":  {
+                        "Description":  "30 Credits – Rare (10)"
+                    }
+    },
+    {
+        "Name":  "# Side Effects",
+        "Details":  {
+
+                    }
+    },
+    {
+        "Name":  "Spur",
+        "Details":  {
+                        "Description":  "35 Credits – Rare (11)"
+                    }
+    },
+    {
+        "Name":  "# Side Effects",
+        "Details":  {
+
+                    }
+    },
+    {
+        "Name":  "Stinger Mould",
+        "Details":  {
+                        "Description":  "75 Credits – Rare (13)"
+                    }
+    },
+    {
+        "Name":  "# Side Effects",
+        "Details":  {
+
+                    }
+    },
+    {
+        "Name":  "Gunshroud (Basic Weapons and Pistols)",
+        "Details":  {
+                        "Description":  "20 Credits – Rare (8)"
+                    }
+    },
+    {
+        "Name":  "Hotshot Las Pack (Lasgun and Laspistol only)",
+        "Details":  {
+                        "Description":  "20 Credits"
+                    }
+    },
+    {
+        "Name":  "Infra-Sight (Pistols, Basic, Special and Heavy Weapons)�",
+        "Details":  {
+                        "Description":  "40 Credits – Rare (8)"
+                    }
+    },
+    {
+        "Name":  "Las-Projector (Pistols, Basic and Special Weapons)",
+        "Details":  {
+                        "Description":  "35 Credits – Rare (9)"
+                    }
+    },
+    {
+        "Name":  "Mono-Sight (Basic, Special and Heavy Weapons)�",
+        "Details":  {
+                        "Description":  "35 Credits – Rare (9)"
+                    }
+    },
+    {
+        "Name":  "Psi-Amplifier (Melee Weapons)�",
+        "Details":  {
+                        "Description":  "75 Credits – Rare (15)"
+                    }
+    },
+    {
+        "Name":  "Suspensors (Weapons With the Unwieldy Trait Only)",
+        "Details":  {
+                        "Description":  "60 Credits – Rare (10)"
+                    }
+    },
+    {
+        "Name":  "Telescopic Sight (Pistols, Basic and Special Weapons)�",
+        "Details":  {
+                        "Description":  "25 Credits"
+                    }
+    },
+    {
+        "Name":  "Focusing Crystal (Lasgun, Laspistol, Long Las only)",
+        "Details":  {
+                        "Description":  "[The Book of Judgement: The Black Market Trading Post](https://www.necroraw.ru/docs/trading-post/book-of-judgement-the-black-market-trading-post) only, 30 Credits – Rare (10)"
+                    }
+    },
+    {
+        "Name":  "Exotic Furs",
+        "Details":  {
+                        "Description":  "50 Credits – Rare (12)"
+                    }
+    },
+    {
+        "Name":  "Gold-Plated Gun",
+        "Details":  {
+                        "Description":  "40 Credits – Rare (10)"
+                    }
+    },
+    {
+        "Name":  "Master-Crafted Weapon",
+        "Details":  {
+                        "Description":  "\\* Credits – Rare (10) \\*25% of the cost of the weapon, rounded up to the nearest 5 credits"
+                    }
+    },
+    {
+        "Name":  "Opulent Jewellery",
+        "Details":  {
+                        "Description":  "80 Credits – Rare (11)"
+                    }
+    },
+    {
+        "Name":  "Uphive Raiments",
+        "Details":  {
+                        "Description":  "50 Credits – Rare (10)"
+                    }
+    },
+    {
+        "Name":  "Sensor Skull",
+        "Details":  {
+                        "Description":  "60 Credits – Rare (12)"
+                    }
+    },
+    {
+        "Name":  "Medi Skull",
+        "Details":  {
+                        "Description":  "80 Credits – Rare (12)"
+                    }
+    },
+    {
+        "Name":  "Gun Skull",
+        "Details":  {
+                        "Description":  "65 Credits – Rare (12)"
+                    }
+    }
+]
