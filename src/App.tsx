@@ -122,7 +122,7 @@ function App() {
                 do it
               </Button>
               <Typography variant='caption' color='warning'>
-                WARNING: Pasting the Url may result in outdated gang information.
+                WARNING: Pasting the Url below may result in outdated gang information. Pasting the full JSON above is recommended.
               </Typography>
               <TextField
                 placeholder='Paste yaktribe JSON URL here'
