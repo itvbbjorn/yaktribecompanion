@@ -21,7 +21,8 @@ function App() {
 
   const fetchGangData = async () => {
     try {
-      const url = 'https://corsproxy.io/?' + encodeURIComponent(jsonInput);
+      const url = 'https://thingproxy.freeboard.io/fetch/' + jsonInput;
+      // const url = 'https://corsproxy.io/?' + encodeURIComponent(jsonInput);
       // const url = jsonInput;
       const response = await fetch(url);
       if (!response.ok) {
